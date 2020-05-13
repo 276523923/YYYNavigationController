@@ -1,0 +1,24 @@
+{
+  "name": "YYYNavigationController",
+  "version": "1.0.3",
+  "summary": "YYYNavigationController",
+  "description": "this is YYYNavigationController",
+  "homepage": "https://gitlab.com/276523923/YYYNavigationController.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "276523923@qq.com": "yyyue@vip.qq.com"
+  },
+  "source": {
+    "git": "git@gitlab.com:276523923/YYYNavigationController.git",
+    "tag": "1.0.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "YYYNavigationController/Classes/**/*.{h,m}",
+  "public_header_files": "YYYNavigationController/Classes/**/*.h"
+}

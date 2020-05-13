@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BZWBase" "${PODS_CONFIGURATION_BUILD_DIR}/BZWMediator" "${PODS_CONFIGURATION_BUILD_DIR}/BZWWebViewController" "${PODS_CONFIGURATION_BUILD_DIR}/YYYMessageSend" "${PODS_CONFIGURATION_BUILD_DIR}/YYYNavigationController" "${PODS_CONFIGURATION_BUILD_DIR}/YYYTool"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BZWBase/BZWBase.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BZWMediator/BZWMediator.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/BZWWebViewController/BZWWebViewController.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYYMessageSend/YYYMessageSend.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYYNavigationController/YYYNavigationController.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYYTool/YYYTool.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "BZWBase" -framework "BZWMediator" -framework "BZWWebViewController" -framework "YYYMessageSend" -framework "YYYNavigationController" -framework "YYYTool"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

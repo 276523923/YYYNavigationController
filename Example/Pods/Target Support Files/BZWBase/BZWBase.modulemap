@@ -1,0 +1,6 @@
+framework module BZWBase {
+  umbrella header "BZWBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

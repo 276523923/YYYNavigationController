@@ -1,0 +1,42 @@
+PODS:
+  - BZWBase/Helper/BZWConstants (1.0.41)
+  - BZWMediator (1.0.6):
+    - YYYMessageSend
+    - YYYTool/Category/Foundation/NSString
+    - YYYTool/Category/UIKit/UIWindow
+  - BZWWebViewController (0.1.8):
+    - BZWBase/Helper/BZWConstants
+    - BZWMediator
+    - YYYTool/Category/Foundation/NSString
+  - YYYMessageSend (1.0.2)
+  - YYYNavigationController (1.0.3)
+  - YYYTool/Category/Foundation/NSString (1.0.18)
+  - YYYTool/Category/UIKit/UIWindow (1.0.18)
+
+DEPENDENCIES:
+  - BZWWebViewController
+  - YYYNavigationController (from `../`)
+
+SPEC REPOS:
+  "git@gitlab.com:276523923/YYYPrivatePods.git":
+    - BZWBase
+    - BZWMediator
+    - BZWWebViewController
+    - YYYMessageSend
+    - YYYTool
+
+EXTERNAL SOURCES:
+  YYYNavigationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BZWBase: dfa30c1e1cd2e5c41dc7d9ab907853bf03872129
+  BZWMediator: b98a051f6a8db9d7584936fcb01573b84b208828
+  BZWWebViewController: 810a309272ed19b46463548bea0838d9d387b6be
+  YYYMessageSend: 5beb993839ad947847f683e1986440f0a392fc35
+  YYYNavigationController: 6f8fecb6e24f28fed8ac3e5e4878a1e580f48f63
+  YYYTool: 1f69204467fbb82971d437acfc6d2a3cbefb97fa
+
+PODFILE CHECKSUM: 2a56fc3870498a319e572bc6060c757eae80904a
+
+COCOAPODS: 1.6.0.beta.2
