@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -160,12 +160,12 @@
 		0EEAFE730B97CA3D2AE0F61B037D71F3 /* BZWWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BZWWebViewController.xcconfig; sourceTree = "<group>"; };
 		0F3A8AA7B771D9B0D1C8A341BBD32E73 /* BZWMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWMediator-prefix.pch"; sourceTree = "<group>"; };
 		1136E7AC6386CC541B374B9504F2B61B /* Pods-YYYNavigationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYNavigationController.release.xcconfig"; sourceTree = "<group>"; };
-		198A5AF5037B808E706914815C71C5A3 /* BZWBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BZWBase.framework; path = BZWBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		198A5AF5037B808E706914815C71C5A3 /* BZWBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BZWBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5BBC58F601B7B1C4FB48FD04BE3773 /* YYYNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYNavigationController.m; path = YYYNavigationController/Classes/YYYNavigationController.m; sourceTree = "<group>"; };
-		1C92C0EA1390DCCB57B2CE504A07F9DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1C92C0EA1390DCCB57B2CE504A07F9DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		242A9AF163736FF541906BE164D8DE7E /* BZWWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWWebViewController-prefix.pch"; sourceTree = "<group>"; };
 		284774C2F9B45BD3FAF9ADF7B514A71C /* Pods-YYYNavigationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYNavigationController.debug.xcconfig"; sourceTree = "<group>"; };
-		28656A7360111FB2E093BAA03DDAFC02 /* YYYNavigationController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YYYNavigationController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28656A7360111FB2E093BAA03DDAFC02 /* YYYNavigationController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YYYNavigationController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2AC3610F1201C7C020B7F67AD3E7AEF6 /* UIWindow+YYYAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+YYYAddition.h"; path = "YYYTool/Classes/Category/UIKit/UIWindow/UIWindow+YYYAddition.h"; sourceTree = "<group>"; };
 		2B108EC30993347B3E77612C21497204 /* BZWBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWBase-umbrella.h"; sourceTree = "<group>"; };
 		3791E794CDFDFC42E59C5B7E69A39231 /* BZWWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWWebViewController-umbrella.h"; sourceTree = "<group>"; };
@@ -175,12 +175,12 @@
 		3E7F68CE0986BA505CC55AD3ADD91235 /* BZWWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BZWWebViewController-dummy.m"; sourceTree = "<group>"; };
 		41AD91CE12D3AB78FE8A82A85F0C63EF /* YYYNavigationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYNavigationManager.h; path = YYYNavigationController/Classes/YYYNavigationManager.h; sourceTree = "<group>"; };
 		44F55872E86E4D00DFDC46909D26A9C2 /* 750-180.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "750-180.png"; path = "BZWBase/Assets/Helper/BZWConstants/750-180.png"; sourceTree = "<group>"; };
-		4538676CFDB7720F97698F8EFE9ECCF7 /* Pods_YYYNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YYYNavigationController.framework; path = "Pods-YYYNavigationController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4538676CFDB7720F97698F8EFE9ECCF7 /* Pods_YYYNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYYNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		461206D140826A819A49C8DD054DD639 /* YYYMessageSend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYYMessageSend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B70D2A19757D5474444BB0AAC3C5BB /* icon_med01_05@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_med01_05@2x.png"; path = "BZWBase/Assets/Helper/BZWConstants/icon_med01_05@2x.png"; sourceTree = "<group>"; };
-		49238CEFF83F8BA54E14EE1D83E6A011 /* YYYTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYYTool.framework; path = YYYTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49238CEFF83F8BA54E14EE1D83E6A011 /* YYYTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYYTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3C5C265AA95F4465E3C8D29EC46722 /* NSString+YYYAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YYYAddition.h"; path = "YYYTool/Classes/Category/Foundation/NSString/NSString+YYYAddition.h"; sourceTree = "<group>"; };
-		4EF7009D9413BC7F062EE42C8A3F21FE /* YYYMessageSend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYYMessageSend.framework; path = YYYMessageSend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF7009D9413BC7F062EE42C8A3F21FE /* YYYMessageSend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYYMessageSend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5714D4768069852A02A573DC65CB4694 /* BZWWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BZWWebViewController.h; path = BZWWebViewController/Classes/BZWWebViewController.h; sourceTree = "<group>"; };
 		58EDBE30FB42A9903F12D4701636DDB1 /* ResourceBundle-BZWConstants-BZWBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BZWConstants-BZWBase-Info.plist"; sourceTree = "<group>"; };
 		5B48E71B8A88BA0E7786919E7399F9F9 /* 750-320.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "750-320.png"; path = "BZWBase/Assets/Helper/BZWConstants/750-320.png"; sourceTree = "<group>"; };
@@ -203,7 +203,7 @@
 		82019AC5ED6B40C6BF1117CB1E74D679 /* YYYMessageSend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYMessageSend.m; path = YYYMessageSend/Classes/YYYMessageSend.m; sourceTree = "<group>"; };
 		88003111D1459950FA88EFB38213B78F /* YYYTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYTool.xcconfig; sourceTree = "<group>"; };
 		895FAC9C41A2AB02BA5E1198B9C2E626 /* UIWindow+YYYAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+YYYAddition.m"; path = "YYYTool/Classes/Category/UIKit/UIWindow/UIWindow+YYYAddition.m"; sourceTree = "<group>"; };
-		8FE99C39D17D22E672BD9276AC5A3312 /* BZWWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BZWWebViewController.framework; path = BZWWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE99C39D17D22E672BD9276AC5A3312 /* BZWWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BZWWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D841CF5781EEF69AE660782FDBE58D /* YYYNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYNavigationController-dummy.m"; sourceTree = "<group>"; };
 		9E0719F47FF50F06C7C6024D72C261D5 /* YYYMessageSend-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYMessageSend-umbrella.h"; sourceTree = "<group>"; };
 		A1388960849F6FF912896D8570A0486D /* YYYNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYNavigationController.xcconfig; sourceTree = "<group>"; };
@@ -212,15 +212,15 @@
 		A5897B3BC03A699F56ED8DBF8C24408D /* BZWConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BZWConstants.m; path = BZWBase/Classes/Helper/BZWConstants/BZWConstants.m; sourceTree = "<group>"; };
 		A6DB38872C576CFF8711BA2FD4D817E1 /* Pods-YYYNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYYNavigationController-dummy.m"; sourceTree = "<group>"; };
 		A88929AE71294FD2495013BE51BDC994 /* BZWWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BZWWebViewController.modulemap; sourceTree = "<group>"; };
-		AB803605ED35185C72A7F03B35D23819 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AB803605ED35185C72A7F03B35D23819 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ABD31C7EAF3E1C9EBA2D86579351ABD1 /* btn_top_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_top_back@2x.png"; path = "BZWBase/Assets/Helper/BZWConstants/btn_top_back@2x.png"; sourceTree = "<group>"; };
 		B105A0ABF4FAFA17B2C024C466D54DB3 /* BZWMediator+ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BZWMediator+ViewController.m"; path = "BZWMediator/Classes/BZWMediator+ViewController.m"; sourceTree = "<group>"; };
 		B1FD5FD1B701EEE59C28048AC3EBADA7 /* YYYMessageSend-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYMessageSend-dummy.m"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCE2DEC4C12C41358719FE5780C04CFD /* YYYTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYYTool.modulemap; sourceTree = "<group>"; };
 		BFA5F20810C17FD4EFE0C8B2AAEBB8C8 /* BZWMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BZWMediator.modulemap; sourceTree = "<group>"; };
 		C2195E896A55BED1631EE022BEC66877 /* BZWBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BZWBase.modulemap; sourceTree = "<group>"; };
-		C554B3CEAF7282B25FCCADDABED39206 /* BZWConstants.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BZWConstants.bundle; path = "BZWBase-BZWConstants.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C554B3CEAF7282B25FCCADDABED39206 /* BZWConstants.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BZWConstants.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6CC501076C3ACBDE1DD6135330FF05E /* YYYMessageSend.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYMessageSend.xcconfig; sourceTree = "<group>"; };
 		C862D2E018BC8F60AEA74BF699CAB971 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C97E981303369395AFC52B14483571B1 /* BZWConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BZWConstants.h; path = BZWBase/Classes/Helper/BZWConstants/BZWConstants.h; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 		CF1C64AE3511FEB992EFE6BDDCC56A75 /* YYYTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYTool-dummy.m"; sourceTree = "<group>"; };
 		CF72352BC7F7D2302AE7F82F4EC799F2 /* Pods-YYYNavigationController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYYNavigationController-Info.plist"; sourceTree = "<group>"; };
 		D0F940690D0D4AEA489F8CD5BECA240E /* YYYTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYYTool-Info.plist"; sourceTree = "<group>"; };
-		D1AE8EE307A2D552331CCF4B871CDC5B /* BZWMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BZWMediator.framework; path = BZWMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1AE8EE307A2D552331CCF4B871CDC5B /* BZWMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BZWMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25C03B701DA508E9617F3B741AACFDA /* YYYNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYNavigationController-prefix.pch"; sourceTree = "<group>"; };
 		E4BE5062215483FC93CC6280281040BE /* Pods-YYYNavigationController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYYNavigationController-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5736F9E61D19815A334D83624BB9245 /* 750-375.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "750-375.png"; path = "BZWBase/Assets/Helper/BZWConstants/750-375.png"; sourceTree = "<group>"; };
@@ -242,7 +242,7 @@
 		F7DCFEC9FAC9B7DA15F3F5DC04F82EF9 /* BZWMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BZWMediator-dummy.m"; sourceTree = "<group>"; };
 		FE5EE2F1AB21C02CB1276B899C248E01 /* YYYNavigationController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYYNavigationController-Info.plist"; sourceTree = "<group>"; };
 		FE5F6E3FF52B52D91EE5E769883E664C /* BZWMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWMediator-umbrella.h"; sourceTree = "<group>"; };
-		FF0698DFC0A39AC6A72BA2AB16AEEFB5 /* YYYNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYYNavigationController.framework; path = YYYNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0698DFC0A39AC6A72BA2AB16AEEFB5 /* YYYNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYYNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,7 +334,6 @@
 				E3C1A7101143E37B2DAB410098A49C4C /* Helper */,
 				0D6DEB30DD4FEDCC88018FF87ECF1059 /* Support Files */,
 			);
-			name = BZWBase;
 			path = BZWBase;
 			sourceTree = "<group>";
 		};
@@ -433,7 +432,6 @@
 				B105A0ABF4FAFA17B2C024C466D54DB3 /* BZWMediator+ViewController.m */,
 				F021143ECCD6135F6C072770B4121B5F /* Support Files */,
 			);
-			name = BZWMediator;
 			path = BZWMediator;
 			sourceTree = "<group>";
 		};
@@ -531,7 +529,6 @@
 				82019AC5ED6B40C6BF1117CB1E74D679 /* YYYMessageSend.m */,
 				814FE75DCAA6F46416DC3B95A76855BB /* Support Files */,
 			);
-			name = YYYMessageSend;
 			path = YYYMessageSend;
 			sourceTree = "<group>";
 		};
@@ -549,7 +546,6 @@
 				D29A7CE733762B3007B52E74318C3B88 /* Category */,
 				5DC44DC5421686D27ECA200687B0F88D /* Support Files */,
 			);
-			name = YYYTool;
 			path = YYYTool;
 			sourceTree = "<group>";
 		};
@@ -560,7 +556,6 @@
 				CC6C896BACAEFC0BB05A74D586E0A426 /* BZWWebViewController.m */,
 				62DEA59325375E63D54423E76FB8F790 /* Support Files */,
 			);
-			name = BZWWebViewController;
 			path = BZWWebViewController;
 			sourceTree = "<group>";
 		};
@@ -881,14 +876,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = C6C34A46BE197C5F81566A411B3C55FD /* Products */;
@@ -1146,12 +1142,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/BZWWebViewController/BZWWebViewController-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/BZWWebViewController/BZWWebViewController.modulemap";
 				PRODUCT_MODULE_NAME = BZWWebViewController;
@@ -1181,12 +1173,8 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BZWMediator/BZWMediator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BZWMediator/BZWMediator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BZWMediator/BZWMediator.modulemap";
 				PRODUCT_MODULE_NAME = BZWMediator;
 				PRODUCT_NAME = BZWMediator;
@@ -1215,12 +1203,8 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYYNavigationController/YYYNavigationController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYYNavigationController/YYYNavigationController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYYNavigationController/YYYNavigationController.modulemap";
 				PRODUCT_MODULE_NAME = YYYNavigationController;
 				PRODUCT_NAME = YYYNavigationController;
@@ -1250,12 +1234,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1287,12 +1267,8 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYYTool/YYYTool-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYYTool/YYYTool-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYYTool/YYYTool.modulemap";
 				PRODUCT_MODULE_NAME = YYYTool;
 				PRODUCT_NAME = YYYTool;
@@ -1312,7 +1288,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BZWBase";
 				INFOPLIST_FILE = "Target Support Files/BZWBase/ResourceBundle-BZWConstants-BZWBase-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = BZWConstants;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1337,12 +1313,8 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYYTool/YYYTool-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYYTool/YYYTool-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYYTool/YYYTool.modulemap";
 				PRODUCT_MODULE_NAME = YYYTool;
 				PRODUCT_NAME = YYYTool;
@@ -1372,12 +1344,8 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYYMessageSend/YYYMessageSend-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYYMessageSend/YYYMessageSend-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYYMessageSend/YYYMessageSend.modulemap";
 				PRODUCT_MODULE_NAME = YYYMessageSend;
 				PRODUCT_NAME = YYYMessageSend;
@@ -1407,12 +1375,8 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BZWMediator/BZWMediator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BZWMediator/BZWMediator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BZWMediator/BZWMediator.modulemap";
 				PRODUCT_MODULE_NAME = BZWMediator;
 				PRODUCT_NAME = BZWMediator;
@@ -1441,12 +1405,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/BZWBase/BZWBase-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/BZWBase/BZWBase.modulemap";
 				PRODUCT_MODULE_NAME = BZWBase;
@@ -1476,12 +1436,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1514,12 +1470,8 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYYNavigationController/YYYNavigationController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYYNavigationController/YYYNavigationController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYYNavigationController/YYYNavigationController.modulemap";
 				PRODUCT_MODULE_NAME = YYYNavigationController;
 				PRODUCT_NAME = YYYNavigationController;
@@ -1548,12 +1500,8 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYYMessageSend/YYYMessageSend-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYYMessageSend/YYYMessageSend-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYYMessageSend/YYYMessageSend.modulemap";
 				PRODUCT_MODULE_NAME = YYYMessageSend;
 				PRODUCT_NAME = YYYMessageSend;
@@ -1581,12 +1529,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/BZWBase/BZWBase-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/BZWBase/BZWBase.modulemap";
 				PRODUCT_MODULE_NAME = BZWBase;
@@ -1608,7 +1552,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BZWBase";
 				INFOPLIST_FILE = "Target Support Files/BZWBase/ResourceBundle-BZWConstants-BZWBase-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = BZWConstants;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1621,6 +1565,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1643,6 +1588,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1665,13 +1611,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1681,6 +1626,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1703,6 +1649,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1728,7 +1675,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1756,12 +1703,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/BZWWebViewController/BZWWebViewController-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/BZWWebViewController/BZWWebViewController.modulemap";
 				PRODUCT_MODULE_NAME = BZWWebViewController;

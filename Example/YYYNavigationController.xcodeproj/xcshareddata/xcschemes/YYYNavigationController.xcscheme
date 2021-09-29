@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "211A0D5CC045F0FF1AC549BE5239A334"
-               BuildableName = "YYYNavigationController.framework"
+               BlueprintIdentifier = "A77C694620B6684100B37992"
+               BuildableName = "YYYNavigationController.app"
                BlueprintName = "YYYNavigationController"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               ReferencedContainer = "container:YYYNavigationController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A77C694620B6684100B37992"
+            BuildableName = "YYYNavigationController.app"
+            BlueprintName = "YYYNavigationController"
+            ReferencedContainer = "container:YYYNavigationController.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,6 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A77C694620B6684100B37992"
+            BuildableName = "YYYNavigationController.app"
+            BlueprintName = "YYYNavigationController"
+            ReferencedContainer = "container:YYYNavigationController.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

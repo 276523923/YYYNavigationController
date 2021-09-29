@@ -1,5 +1,4 @@
 use_frameworks!
-source 'git@gitlab.com:276523923/YYYPrivatePods.git'
 source 'https://github.com/CocoaPods/Specs'
 
 target 'YYYNavigationController' do

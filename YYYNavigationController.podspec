@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'YYYNavigationController'
-  s.version      = '1.1.1'
+  s.version      = '1.0.1'
   s.summary      = 'YYYNavigationController'
 
   s.description  = <<-DESC

@@ -280,6 +280,10 @@ shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRec
         return;
     }
     YYY_Transition_NavigationBar *fakeBar = [[YYY_Transition_NavigationBar alloc] init];
+    if (@available(iOS 15, *)) {
+        fakeBar.standardAppearance = self.navigationBar.standardAppearance;
+        fakeBar.scrollEdgeAppearance = self.navigationBar.scrollEdgeAppearance;
+    }
     [viewController.yyy_navigationManager updateStyleToNavigationBar:fakeBar];
     CGRect barFrame = [self.navigationBar convertRect:self.navigationBar.bounds toView:viewController.view];
     barFrame.origin.x = 0;
@@ -341,6 +345,11 @@ shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRec
     // 处理隐藏navigationBar后侧滑手势失效问题
     self.interactivePopGestureRecognizer.delegate = self;
     self.interactivePopGestureRecognizer.delaysTouchesBegan = YES;
+    if (@available(iOS 15, *)) {
+        UINavigationBarAppearance *appear = [UINavigationBarAppearance new];
+        self.navigationBar.standardAppearance = appear;
+        self.navigationBar.scrollEdgeAppearance = appear;
+    }
 }
 
 - (void)setNavigationBarHidden:(BOOL)hidden animated:(BOOL)animated {

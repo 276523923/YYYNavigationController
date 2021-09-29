@@ -39,6 +39,7 @@
     self.dataSource = @[@"默认navBar样式",
                         @"浅色navBar样式",
                         @"暗色navBar样式",
+                        @"红色navBar样式",
                         @"隐藏navBar样式",
                         @"滑动隐藏navBar样式"
                         ];
@@ -61,6 +62,12 @@
             self.yyy_navigationManager.tintColor = [UIColor whiteColor];
             self.yyy_navigationManager.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
             self.yyy_navigationManager.translucent = NO;
+            break;
+        }
+        case NavigationBarStyleRed: {
+            self.yyy_navigationManager.barTintColor = [UIColor redColor];
+            self.yyy_navigationManager.tintColor = [UIColor whiteColor];
+            self.yyy_navigationManager.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
             break;
         }
         case NavigationBarStyleHidden: {

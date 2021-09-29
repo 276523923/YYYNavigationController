@@ -12,6 +12,7 @@ typedef NS_ENUM(NSInteger, NavigationBarStyle) {
     NavigationBarStyleOrigin,
     NavigationBarStyleLight,
     NavigationBarStyleDark,
+    NavigationBarStyleRed,
     NavigationBarStyleHidden,
     NavigationBarStyleHiddenWhenScroll
 };

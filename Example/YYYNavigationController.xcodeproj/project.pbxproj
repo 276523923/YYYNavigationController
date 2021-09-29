@@ -15,7 +15,6 @@
 		A77C695720B6684200B37992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77C695520B6684200B37992 /* LaunchScreen.storyboard */; };
 		A77C695A20B6684200B37992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77C695920B6684200B37992 /* main.m */; };
 		A77C696120B668CB00B37992 /* YYYNavigationController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A77C696020B668CB00B37992 /* YYYNavigationController.podspec */; };
-		A7F07F0E2134EE3B00B28F01 /* upload.sh in Resources */ = {isa = PBXBuildFile; fileRef = A7F07F0D2134EE3B00B28F01 /* upload.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		A77C695820B6684200B37992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A77C695920B6684200B37992 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A77C696020B668CB00B37992 /* YYYNavigationController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; name = YYYNavigationController.podspec; path = ../YYYNavigationController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7F07F0D2134EE3B00B28F01 /* upload.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = upload.sh; path = ../upload.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 		A77C693E20B6684100B37992 = {
 			isa = PBXGroup;
 			children = (
-				A7F07F0D2134EE3B00B28F01 /* upload.sh */,
 				A77C696020B668CB00B37992 /* YYYNavigationController.podspec */,
 				A77C694920B6684100B37992 /* YYYNavigationController */,
 				A77C694820B6684100B37992 /* Products */,
@@ -162,7 +159,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77C695720B6684200B37992 /* LaunchScreen.storyboard in Resources */,
-				A7F07F0E2134EE3B00B28F01 /* upload.sh in Resources */,
 				A77C695420B6684200B37992 /* Assets.xcassets in Resources */,
 				A77C696120B668CB00B37992 /* YYYNavigationController.podspec in Resources */,
 				A77C695220B6684100B37992 /* Main.storyboard in Resources */,

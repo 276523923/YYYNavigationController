@@ -82,24 +82,47 @@ static YYYNavigationManager *globalManager__ = nil;
     navigationBar.translucent = self.isTranslucent;
     navigationBar.barTintColor = self.barTintColor;
     navigationBar.tintColor = self.tintColor;
+    BOOL isDarkStyle = self.viewController.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark;
     if (@available(iOS 13, *)) {
-        if (self.hasSetDarkBackgroundImage && self.viewController.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark) {
+        if (self.hasSetDarkBackgroundImage && isDarkStyle) {
             [navigationBar setBackgroundImage:self.darkBackgroundImage forBarMetrics:UIBarMetricsDefault];
         } else {
             [navigationBar setBackgroundImage:self.backgroundImage forBarMetrics:UIBarMetricsDefault];
         }
         
-        if (self.hasSetDarkShadowImage && self.viewController.overrideUserInterfaceStyle == UIUserInterfaceStyleDark) {
+        if (self.hasSetDarkShadowImage && isDarkStyle) {
             navigationBar.shadowImage = self.darkShadowImage;
         } else {
             navigationBar.shadowImage = self.shadowImage;
         }
-        
     } else {
         navigationBar.shadowImage = self.shadowImage;
         [navigationBar setBackgroundImage:self.backgroundImage forBarMetrics:UIBarMetricsDefault];
     }
+    
     navigationBar.titleTextAttributes = self.titleTextAttributes;
+
+    if (@available(iOS 15, *)) {
+        navigationBar.standardAppearance.backgroundImage = self.backgroundImage;
+        navigationBar.standardAppearance.shadowImage = self.shadowImage;
+        navigationBar.standardAppearance.backgroundColor = self.barTintColor;
+        navigationBar.standardAppearance.titleTextAttributes = self.titleTextAttributes;
+        
+        navigationBar.scrollEdgeAppearance.backgroundImage = self.backgroundImage;
+        navigationBar.scrollEdgeAppearance.shadowImage = self.shadowImage;
+        navigationBar.scrollEdgeAppearance.backgroundColor = self.barTintColor;
+        navigationBar.scrollEdgeAppearance.titleTextAttributes = self.titleTextAttributes;
+        
+        if (isDarkStyle && self.hasSetDarkBackgroundImage) {
+            navigationBar.standardAppearance.backgroundImage = self.darkBackgroundImage;
+            navigationBar.scrollEdgeAppearance.backgroundImage = self.darkBackgroundImage;
+        }
+        
+        if (isDarkStyle && self.hasSetDarkShadowImage) {
+            navigationBar.standardAppearance.shadowImage = self.darkShadowImage;
+            navigationBar.scrollEdgeAppearance.shadowImage = self.darkShadowImage;
+        }
+    }
 }
 
 - (BOOL)needUpdateNavigationBar {
@@ -125,6 +148,10 @@ static YYYNavigationManager *globalManager__ = nil;
     _backgroundImage = backgroundImage;
     if ([self needUpdateNavigationBar]) {
         [self.viewController.navigationController.navigationBar setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];
+        if (@available(iOS 15, *)) {
+            self.viewController.navigationController.navigationBar.standardAppearance.backgroundImage = backgroundImage;
+            self.viewController.navigationController.navigationBar.scrollEdgeAppearance.backgroundImage = backgroundImage;
+        }
     }
 }
 
@@ -132,6 +159,10 @@ static YYYNavigationManager *globalManager__ = nil;
     _shadowImage = shadowImage;
     if ([self needUpdateNavigationBar]) {
         self.viewController.navigationController.navigationBar.shadowImage = shadowImage;
+        if (@available(iOS 15, *)) {
+            self.viewController.navigationController.navigationBar.standardAppearance.shadowImage = shadowImage;
+            self.viewController.navigationController.navigationBar.scrollEdgeAppearance.shadowImage = shadowImage;
+        }
     }
 }
 
@@ -149,6 +180,10 @@ static YYYNavigationManager *globalManager__ = nil;
     _barTintColor = barTintColor;
     if ([self needUpdateNavigationBar]) {
         self.viewController.navigationController.navigationBar.barTintColor = barTintColor;
+        if (@available(iOS 15, *)) {
+            self.viewController.navigationController.navigationBar.standardAppearance.backgroundColor = barTintColor;
+            self.viewController.navigationController.navigationBar.scrollEdgeAppearance.backgroundColor = barTintColor;
+        }
     }
 }
 
@@ -167,6 +202,10 @@ static YYYNavigationManager *globalManager__ = nil;
     _titleTextAttributes = [titleTextAttributes copy];
     if ([self needUpdateNavigationBar]) {
         self.viewController.navigationController.navigationBar.titleTextAttributes = titleTextAttributes;
+        if (@available(iOS 15, *)) {
+            self.viewController.navigationController.navigationBar.standardAppearance.titleTextAttributes = titleTextAttributes;
+            self.viewController.navigationController.navigationBar.scrollEdgeAppearance.titleTextAttributes = titleTextAttributes;
+        }
     }
 }
 
