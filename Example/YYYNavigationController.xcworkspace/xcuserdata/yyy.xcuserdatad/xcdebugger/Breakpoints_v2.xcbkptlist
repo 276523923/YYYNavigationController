@@ -14,8 +14,8 @@
             filePath = "../YYYNavigationController/Classes/YYYNavigationManager.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "205"
-            endingLineNumber = "205"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
             landmarkName = "-setTitleTextAttributes:"
             landmarkType = "7">
          </BreakpointContent>

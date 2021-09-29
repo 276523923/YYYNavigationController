@@ -82,8 +82,8 @@ static YYYNavigationManager *globalManager__ = nil;
     navigationBar.translucent = self.isTranslucent;
     navigationBar.barTintColor = self.barTintColor;
     navigationBar.tintColor = self.tintColor;
-    BOOL isDarkStyle = self.viewController.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark;
     if (@available(iOS 13, *)) {
+        BOOL isDarkStyle = self.viewController.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark;
         if (self.hasSetDarkBackgroundImage && isDarkStyle) {
             [navigationBar setBackgroundImage:self.darkBackgroundImage forBarMetrics:UIBarMetricsDefault];
         } else {
@@ -103,6 +103,7 @@ static YYYNavigationManager *globalManager__ = nil;
     navigationBar.titleTextAttributes = self.titleTextAttributes;
 
     if (@available(iOS 15, *)) {
+        BOOL isDarkStyle = self.viewController.traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark;
         navigationBar.standardAppearance.backgroundImage = self.backgroundImage;
         navigationBar.standardAppearance.shadowImage = self.shadowImage;
         navigationBar.standardAppearance.backgroundColor = self.barTintColor;
