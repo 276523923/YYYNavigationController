@@ -110,7 +110,6 @@
 				A77C694420B6684100B37992 /* Frameworks */,
 				A77C694520B6684100B37992 /* Resources */,
 				CC4557D4DE56269EFB3DEB5A /* [CP] Embed Pods Frameworks */,
-				438314AFE4BA824BE787EFA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,28 +167,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		438314AFE4BA824BE787EFA4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/BZWBase/BZWConstants.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BZWConstants.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C9B4938D54D2C9022F41CE01 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,22 +195,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BZWMediator/BZWMediator.framework",
-				"${BUILT_PRODUCTS_DIR}/YYYMessageSend/YYYMessageSend.framework",
-				"${BUILT_PRODUCTS_DIR}/YYYNavigationController/YYYNavigationController.framework",
-				"${BUILT_PRODUCTS_DIR}/YYYTool/YYYTool.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BZWMediator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYYMessageSend.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYYNavigationController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYYTool.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

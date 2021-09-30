@@ -3,746 +3,222 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C65920D364F4469430AB186CE8103C8 /* BZWMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D22B9381DFE925699AAB0839DDD86FA /* BZWMediator.m */; };
-		0CCEBADE419823284DA94AF0303C5BC0 /* YYYMessageSend.h in Headers */ = {isa = PBXBuildFile; fileRef = 6190E455D6714E1F497E9DF37209284B /* YYYMessageSend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FABBBD7168BFCB34F5EC2586BE9E0D5 /* YYYNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D841CF5781EEF69AE660782FDBE58D /* YYYNavigationController-dummy.m */; };
-		11EFE955471CAFAAD8C91ABB65EBD3D8 /* UIWindow+YYYAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC3610F1201C7C020B7F67AD3E7AEF6 /* UIWindow+YYYAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B407D887D42CEE430D63B57E3857D77 /* NSString+YYYAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C7281D9438E60CC28FC5B84BA30EF /* NSString+YYYAddition.m */; };
-		1B42981356D5B81CE748010320C9682A /* YYYNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7586704E90D17271F05D4723125CE3FD /* YYYNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		218FCFCDFF59600D70B09FA878D59F17 /* YYYTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1C64AE3511FEB992EFE6BDDCC56A75 /* YYYTool-dummy.m */; };
-		27FAAADD3EB9C138CBB82701F9CF38EC /* YYYMessageSend-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0719F47FF50F06C7C6024D72C261D5 /* YYYMessageSend-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34BBF2410569D0234016C310C31D9CF0 /* BZWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C896BACAEFC0BB05A74D586E0A426 /* BZWWebViewController.m */; };
-		35051BF2C44F91D293B7CC5B36C117B1 /* YYYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BBC58F601B7B1C4FB48FD04BE3773 /* YYYNavigationController.m */; };
-		3555FB67A8DEA3C310F493D2FCF0D099 /* 750-560.png in Resources */ = {isa = PBXBuildFile; fileRef = 080BF688BAA8EDD0A2DF44FE681E1B27 /* 750-560.png */; };
-		37E4329C81DF60D4D523F1AA4B35AD32 /* BZWMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5F6E3FF52B52D91EE5E769883E664C /* BZWMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46EBB61DBDA609AB1BEA52F4E5AD5CB8 /* BZWWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7F68CE0986BA505CC55AD3ADD91235 /* BZWWebViewController-dummy.m */; };
-		4A64112BCE5A86167874D3BE9524B305 /* BZWWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5714D4768069852A02A573DC65CB4694 /* BZWWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D6664F7150F66551A566874A3E93C95 /* YYYMessageSend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461206D140826A819A49C8DD054DD639 /* YYYMessageSend.framework */; };
-		53B426DE946FF98E4B28D04EA2277478 /* YYYNavigationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AD91CE12D3AB78FE8A82A85F0C63EF /* YYYNavigationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54863C66101FF070F1515644CEDE5FA9 /* 240-240@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D6ECD185FF48A183B9AF2D4B1882D1D /* 240-240@3x.png */; };
-		608CF8412AA93254F04B2C65AEE7815E /* icon_med01_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48B70D2A19757D5474444BB0AAC3C5BB /* icon_med01_05@2x.png */; };
-		60F5B3DD83C2A5750933A29BD167306F /* BZWWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3791E794CDFDFC42E59C5B7E69A39231 /* BZWWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6429657DC6742F8FB5A7A8034855619D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C862D2E018BC8F60AEA74BF699CAB971 /* Foundation.framework */; };
-		68897AC3BDFCEBB2DA9E72C74B30868F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C862D2E018BC8F60AEA74BF699CAB971 /* Foundation.framework */; };
-		692719F3AC02E42E13740FBA28A05D6E /* BZWConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A5897B3BC03A699F56ED8DBF8C24408D /* BZWConstants.m */; };
-		6F95699DD75006E4D306FE25328DC94F /* bzw_share_image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70CA1A140958F21EC58CD9583881B722 /* bzw_share_image@3x.png */; };
-		7963EFED62BEAAFB35C199FA8DC564B3 /* BZWBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B108EC30993347B3E77612C21497204 /* BZWBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A9F0AF115962F84B8E6EE69CB636FB5 /* UIWindow+YYYAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 895FAC9C41A2AB02BA5E1198B9C2E626 /* UIWindow+YYYAddition.m */; };
-		7C0A0DA899E58BAFDBEFA0DB2C2DC445 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C862D2E018BC8F60AEA74BF699CAB971 /* Foundation.framework */; };
-		7C54031060AC7EEA01D61E94A0106D55 /* 750-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F55872E86E4D00DFDC46909D26A9C2 /* 750-180.png */; };
-		80086F60782106C4D2AFD14B10CF77F3 /* 750-320.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B48E71B8A88BA0E7786919E7399F9F9 /* 750-320.png */; };
-		8461996D7261E4451B8B5D78E30540FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C862D2E018BC8F60AEA74BF699CAB971 /* Foundation.framework */; };
-		87F83269C6F8700259373C97C009D3EB /* BZWMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DCFEC9FAC9B7DA15F3F5DC04F82EF9 /* BZWMediator-dummy.m */; };
-		8882C1B7B31140882BDFC4FF970C70C5 /* bzw_share_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9A0AE901CF49704F3DC8AE78DC8277 /* bzw_share_image@2x.png */; };
-		88C143B8702E6F1A39FAC525494E0D72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C862D2E018BC8F60AEA74BF699CAB971 /* Foundation.framework */; };
-		8F12321B0F87FC7B40A15D93D3351283 /* btn_top_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6270BA51AB697C5D33C60A14B4C3F209 /* btn_top_back@3x.png */; };
-		8F1DC3128C6F0D68C940D8FB91F21A3B /* YYYNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7ADC23DC17D89EC59E3969736864D /* YYYNavigationManager.m */; };
-		923420716670A41E109AB91D80005138 /* YYYTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39443D93240632079B2A3766A9FDD3F9 /* YYYTool.framework */; };
-		95F5198BF40068440852C9E93A70A4B5 /* Pods-YYYNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6A90A45383138C8A64692BE70060B67 /* Pods-YYYNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5F5D5DCA3DB7E13688EE33684403342 /* icon_med01_05@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CF438C209E2C146D7EE031D7703009 /* icon_med01_05@3x.png */; };
-		A7CAB5650D9017BDB3666FB8C9D315B6 /* YYYTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A55060DD17F1FA1C376207A164C15376 /* YYYTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC06BF2AE6AFC93144B417BAC5030A28 /* 750-375.png in Resources */ = {isa = PBXBuildFile; fileRef = E5736F9E61D19815A334D83624BB9245 /* 750-375.png */; };
-		B0A893BD38472EE46C53BA352BA9349C /* 750-750.png in Resources */ = {isa = PBXBuildFile; fileRef = F75C2ACEC095CA5E479EFD732B8F1B0F /* 750-750.png */; };
-		B0B8233B466E3572A9A253C8627F776E /* BZWMediator+ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E32E480D2C868FA4230924DD4F0F95A /* BZWMediator+ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8BEBB8CF9529DECEFD8A6EEA6291F7B /* BZWConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C97E981303369395AFC52B14483571B1 /* BZWConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFA9E6E2C949FA4EE40E5DA98A52928C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C862D2E018BC8F60AEA74BF699CAB971 /* Foundation.framework */; };
-		C83AB7017BCAC81BECD780A030500BC0 /* YYYNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A01A465166F6FA5322B5549F9910AB2 /* YYYNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C99751F05EB23AE654ABBD2E315499C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C862D2E018BC8F60AEA74BF699CAB971 /* Foundation.framework */; };
-		CB329324752E428F039510658B6FC834 /* Pods-YYYNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DB38872C576CFF8711BA2FD4D817E1 /* Pods-YYYNavigationController-dummy.m */; };
-		D6EA6CBF03D5C4D306B3B07674216786 /* BZWMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1D2876713522BC34A5A29DCB36FB07 /* BZWMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D889CFA021557ECE6AB05871A89CF428 /* NSString+YYYAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3C5C265AA95F4465E3C8D29EC46722 /* NSString+YYYAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB093D4D5D4805348E351965967E5C16 /* 240-240@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC162C96463C0D16E7C41CB3909D295 /* 240-240@2x.png */; };
-		DE3AA4DBCA8B2A1D09F42C277CA64ACE /* YYYMessageSend.m in Sources */ = {isa = PBXBuildFile; fileRef = 82019AC5ED6B40C6BF1117CB1E74D679 /* YYYMessageSend.m */; };
-		E19A542432DC2383264FA73B5496A3D2 /* BZWConstants.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C554B3CEAF7282B25FCCADDABED39206 /* BZWConstants.bundle */; };
-		E8C438669EBAB50987561B9BE06279D4 /* BZWMediator+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B105A0ABF4FAFA17B2C024C466D54DB3 /* BZWMediator+ViewController.m */; };
-		E9AB1865C28692E9D41C9C16774A079A /* YYYMessageSend-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FD5FD1B701EEE59C28048AC3EBADA7 /* YYYMessageSend-dummy.m */; };
-		F051029A0746C0F768C284E2826CA512 /* BZWBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 724132C16F9C0C105E00CBF035AB7AA0 /* BZWBase-dummy.m */; };
-		FA445A89FC6CA0DC09452051BE9608C9 /* btn_top_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD31C7EAF3E1C9EBA2D86579351ABD1 /* btn_top_back@2x.png */; };
+		3F4C4E8E1EAA1B3D1739C316214CECF3 /* YYYNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D7038FD7378A94C4AC3D3FCF5A2D7ED2 /* YYYNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5284BFF20867B6C2576A3606420B53B2 /* YYYNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB628E83CA6BDCEDA6011A54222D3EC /* YYYNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78FF8D41154FBF49B0FA43D7616F11AB /* YYYNavigationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4353DC252C544E500F838DC53AC23FC9 /* YYYNavigationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844AD82AE4EB74E2091C36CC5B2BDF54 /* YYYNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1944E04242667C0D86772A9B71645346 /* YYYNavigationManager.m */; };
+		B19A485D0206F19CB494DE458714A1AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D810D65B30C8CCD973BE642BFD067FE3 /* YYYNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DE750A4546BAD4DC9EF769B2F93FB2 /* YYYNavigationController-dummy.m */; };
+		E56FEBA91E73E34DBCEB9B41538005F2 /* YYYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E256C388070E9EE1DC9118E9E77DA /* YYYNavigationController.m */; };
+		EA9CD25E8550381C94BAEB5B7DEC11DA /* Pods-YYYNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6F54034324A9DA6E1FAA3D0BDA21B /* Pods-YYYNavigationController-dummy.m */; };
+		ECFA8D3E8561FC31AB7C1563E0E71625 /* Pods-YYYNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC49489D945CC72ED6E274D78FEF3F26 /* Pods-YYYNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF307BE86F4A6488E1AEDFF6A473E040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07167F7945BEEE8648DA506C4A7483C6 /* PBXContainerItemProxy */ = {
+		B3D00E831E392E61C843F35FCE7578B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A1EFCFFCAFC2451AA88DB81C3820ADE4;
-			remoteInfo = YYYMessageSend;
-		};
-		29AFECC7199FD257823E1492E20EEC7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3060BB352B8FBF56E46751DCABE2C990;
-			remoteInfo = YYYTool;
-		};
-		90AE14EB929A04CE9CDDA2C3B9D18960 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCACA96A003E835824DFB1AD14B1D77D;
-			remoteInfo = BZWBase;
-		};
-		984FD3C67EECBE4C95444312DC6CA2B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3060BB352B8FBF56E46751DCABE2C990;
-			remoteInfo = YYYTool;
-		};
-		9F697ABEF68C08BD5185777A08F3BC33 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCACA96A003E835824DFB1AD14B1D77D;
-			remoteInfo = BZWBase;
-		};
-		A97A82C7CAF2A7DE57317BB0104EE617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0CA33466607D19A4393FE7CFC5E95E5D;
-			remoteInfo = BZWWebViewController;
-		};
-		AA08A170CBADC140B7B3EF7F27908DB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 211A0D5CC045F0FF1AC549BE5239A334;
+			remoteGlobalIDString = 42ED341AF531F9568CC5F9840E24B7F4;
 			remoteInfo = YYYNavigationController;
-		};
-		B5A8FB3E36B59BFCB273114552A4A371 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A1EFCFFCAFC2451AA88DB81C3820ADE4;
-			remoteInfo = YYYMessageSend;
-		};
-		D3634C67494FC14982813E680D083B92 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E1F8B7AFA5CB6145DC4A46BD90FD352;
-			remoteInfo = BZWMediator;
-		};
-		DF3E6560FE787425F0BBDEC7FADFF462 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3060BB352B8FBF56E46751DCABE2C990;
-			remoteInfo = YYYTool;
-		};
-		F02955D7CCAA5743B7506AD01AF65773 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E1F8B7AFA5CB6145DC4A46BD90FD352;
-			remoteInfo = BZWMediator;
-		};
-		F3247A2A0E6704ABCF071492D0D41E51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A13D22C9E72114605BF66573168DDF05;
-			remoteInfo = "BZWBase-BZWConstants";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03F5F383EB0074455AD46621A866BD3B /* YYYTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYTool-prefix.pch"; sourceTree = "<group>"; };
-		0573B7EB35D5715D2AACD98B1FDE4301 /* BZWMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BZWMediator-Info.plist"; sourceTree = "<group>"; };
-		080BF688BAA8EDD0A2DF44FE681E1B27 /* 750-560.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "750-560.png"; path = "BZWBase/Assets/Helper/BZWConstants/750-560.png"; sourceTree = "<group>"; };
-		0D22B9381DFE925699AAB0839DDD86FA /* BZWMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BZWMediator.m; path = BZWMediator/Classes/BZWMediator.m; sourceTree = "<group>"; };
-		0D6ECD185FF48A183B9AF2D4B1882D1D /* 240-240@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "240-240@3x.png"; path = "BZWBase/Assets/Helper/BZWConstants/240-240@3x.png"; sourceTree = "<group>"; };
-		0EEAFE730B97CA3D2AE0F61B037D71F3 /* BZWWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BZWWebViewController.xcconfig; sourceTree = "<group>"; };
-		0F3A8AA7B771D9B0D1C8A341BBD32E73 /* BZWMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWMediator-prefix.pch"; sourceTree = "<group>"; };
-		1136E7AC6386CC541B374B9504F2B61B /* Pods-YYYNavigationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYNavigationController.release.xcconfig"; sourceTree = "<group>"; };
-		198A5AF5037B808E706914815C71C5A3 /* BZWBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BZWBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5BBC58F601B7B1C4FB48FD04BE3773 /* YYYNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYNavigationController.m; path = YYYNavigationController/Classes/YYYNavigationController.m; sourceTree = "<group>"; };
-		1C92C0EA1390DCCB57B2CE504A07F9DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		242A9AF163736FF541906BE164D8DE7E /* BZWWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWWebViewController-prefix.pch"; sourceTree = "<group>"; };
-		284774C2F9B45BD3FAF9ADF7B514A71C /* Pods-YYYNavigationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYNavigationController.debug.xcconfig"; sourceTree = "<group>"; };
-		28656A7360111FB2E093BAA03DDAFC02 /* YYYNavigationController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YYYNavigationController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2AC3610F1201C7C020B7F67AD3E7AEF6 /* UIWindow+YYYAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+YYYAddition.h"; path = "YYYTool/Classes/Category/UIKit/UIWindow/UIWindow+YYYAddition.h"; sourceTree = "<group>"; };
-		2B108EC30993347B3E77612C21497204 /* BZWBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWBase-umbrella.h"; sourceTree = "<group>"; };
-		3791E794CDFDFC42E59C5B7E69A39231 /* BZWWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWWebViewController-umbrella.h"; sourceTree = "<group>"; };
-		39443D93240632079B2A3766A9FDD3F9 /* YYYTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYYTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B1F0AD84532B88B9A0E5CC449D9A090 /* BZWBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWBase-prefix.pch"; sourceTree = "<group>"; };
-		3CB7ADC23DC17D89EC59E3969736864D /* YYYNavigationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYNavigationManager.m; path = YYYNavigationController/Classes/YYYNavigationManager.m; sourceTree = "<group>"; };
-		3E7F68CE0986BA505CC55AD3ADD91235 /* BZWWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BZWWebViewController-dummy.m"; sourceTree = "<group>"; };
-		41AD91CE12D3AB78FE8A82A85F0C63EF /* YYYNavigationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYNavigationManager.h; path = YYYNavigationController/Classes/YYYNavigationManager.h; sourceTree = "<group>"; };
-		44F55872E86E4D00DFDC46909D26A9C2 /* 750-180.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "750-180.png"; path = "BZWBase/Assets/Helper/BZWConstants/750-180.png"; sourceTree = "<group>"; };
-		4538676CFDB7720F97698F8EFE9ECCF7 /* Pods_YYYNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYYNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		461206D140826A819A49C8DD054DD639 /* YYYMessageSend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYYMessageSend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48B70D2A19757D5474444BB0AAC3C5BB /* icon_med01_05@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_med01_05@2x.png"; path = "BZWBase/Assets/Helper/BZWConstants/icon_med01_05@2x.png"; sourceTree = "<group>"; };
-		49238CEFF83F8BA54E14EE1D83E6A011 /* YYYTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYYTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E3C5C265AA95F4465E3C8D29EC46722 /* NSString+YYYAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YYYAddition.h"; path = "YYYTool/Classes/Category/Foundation/NSString/NSString+YYYAddition.h"; sourceTree = "<group>"; };
-		4EF7009D9413BC7F062EE42C8A3F21FE /* YYYMessageSend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYYMessageSend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5714D4768069852A02A573DC65CB4694 /* BZWWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BZWWebViewController.h; path = BZWWebViewController/Classes/BZWWebViewController.h; sourceTree = "<group>"; };
-		58EDBE30FB42A9903F12D4701636DDB1 /* ResourceBundle-BZWConstants-BZWBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BZWConstants-BZWBase-Info.plist"; sourceTree = "<group>"; };
-		5B48E71B8A88BA0E7786919E7399F9F9 /* 750-320.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "750-320.png"; path = "BZWBase/Assets/Helper/BZWConstants/750-320.png"; sourceTree = "<group>"; };
-		5CD5FD9608EAF6985D4BDE03569A2259 /* YYYNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYYNavigationController.modulemap; sourceTree = "<group>"; };
-		6190E455D6714E1F497E9DF37209284B /* YYYMessageSend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYMessageSend.h; path = YYYMessageSend/Classes/YYYMessageSend.h; sourceTree = "<group>"; };
-		6270BA51AB697C5D33C60A14B4C3F209 /* btn_top_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_top_back@3x.png"; path = "BZWBase/Assets/Helper/BZWConstants/btn_top_back@3x.png"; sourceTree = "<group>"; };
-		6552E0BA01785E681D4A5A8CAB945719 /* Pods-YYYNavigationController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYYNavigationController-resources.sh"; sourceTree = "<group>"; };
-		65DE9F2CD2713325312CE355CA4BAD5B /* YYYMessageSend-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYMessageSend-prefix.pch"; sourceTree = "<group>"; };
-		681A2B06D013153157FB9F4C01D8AA59 /* BZWMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BZWMediator.xcconfig; sourceTree = "<group>"; };
-		6A01A465166F6FA5322B5549F9910AB2 /* YYYNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYNavigationController.h; path = YYYNavigationController/Classes/YYYNavigationController.h; sourceTree = "<group>"; };
-		6A1C7281D9438E60CC28FC5B84BA30EF /* NSString+YYYAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YYYAddition.m"; path = "YYYTool/Classes/Category/Foundation/NSString/NSString+YYYAddition.m"; sourceTree = "<group>"; };
-		6A1D2876713522BC34A5A29DCB36FB07 /* BZWMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BZWMediator.h; path = BZWMediator/Classes/BZWMediator.h; sourceTree = "<group>"; };
-		6CC162C96463C0D16E7C41CB3909D295 /* 240-240@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "240-240@2x.png"; path = "BZWBase/Assets/Helper/BZWConstants/240-240@2x.png"; sourceTree = "<group>"; };
-		70CA1A140958F21EC58CD9583881B722 /* bzw_share_image@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bzw_share_image@3x.png"; path = "BZWBase/Assets/Helper/BZWConstants/bzw_share_image@3x.png"; sourceTree = "<group>"; };
-		724132C16F9C0C105E00CBF035AB7AA0 /* BZWBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BZWBase-dummy.m"; sourceTree = "<group>"; };
-		7586704E90D17271F05D4723125CE3FD /* YYYNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYNavigationController-umbrella.h"; sourceTree = "<group>"; };
-		79C13320E92C665EC0B0B8FE56304D96 /* Pods-YYYNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YYYNavigationController.modulemap"; sourceTree = "<group>"; };
-		7A59380AA6048E638A24B880A354B892 /* Pods-YYYNavigationController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYYNavigationController-frameworks.sh"; sourceTree = "<group>"; };
-		7E32E480D2C868FA4230924DD4F0F95A /* BZWMediator+ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BZWMediator+ViewController.h"; path = "BZWMediator/Classes/BZWMediator+ViewController.h"; sourceTree = "<group>"; };
-		82019AC5ED6B40C6BF1117CB1E74D679 /* YYYMessageSend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYMessageSend.m; path = YYYMessageSend/Classes/YYYMessageSend.m; sourceTree = "<group>"; };
-		88003111D1459950FA88EFB38213B78F /* YYYTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYTool.xcconfig; sourceTree = "<group>"; };
-		895FAC9C41A2AB02BA5E1198B9C2E626 /* UIWindow+YYYAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+YYYAddition.m"; path = "YYYTool/Classes/Category/UIKit/UIWindow/UIWindow+YYYAddition.m"; sourceTree = "<group>"; };
-		8FE99C39D17D22E672BD9276AC5A3312 /* BZWWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BZWWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98D841CF5781EEF69AE660782FDBE58D /* YYYNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYNavigationController-dummy.m"; sourceTree = "<group>"; };
-		9E0719F47FF50F06C7C6024D72C261D5 /* YYYMessageSend-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYMessageSend-umbrella.h"; sourceTree = "<group>"; };
-		A1388960849F6FF912896D8570A0486D /* YYYNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYNavigationController.xcconfig; sourceTree = "<group>"; };
-		A1CF438C209E2C146D7EE031D7703009 /* icon_med01_05@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_med01_05@3x.png"; path = "BZWBase/Assets/Helper/BZWConstants/icon_med01_05@3x.png"; sourceTree = "<group>"; };
-		A55060DD17F1FA1C376207A164C15376 /* YYYTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYTool-umbrella.h"; sourceTree = "<group>"; };
-		A5897B3BC03A699F56ED8DBF8C24408D /* BZWConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BZWConstants.m; path = BZWBase/Classes/Helper/BZWConstants/BZWConstants.m; sourceTree = "<group>"; };
-		A6DB38872C576CFF8711BA2FD4D817E1 /* Pods-YYYNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYYNavigationController-dummy.m"; sourceTree = "<group>"; };
-		A88929AE71294FD2495013BE51BDC994 /* BZWWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BZWWebViewController.modulemap; sourceTree = "<group>"; };
-		AB803605ED35185C72A7F03B35D23819 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		ABD31C7EAF3E1C9EBA2D86579351ABD1 /* btn_top_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "btn_top_back@2x.png"; path = "BZWBase/Assets/Helper/BZWConstants/btn_top_back@2x.png"; sourceTree = "<group>"; };
-		B105A0ABF4FAFA17B2C024C466D54DB3 /* BZWMediator+ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BZWMediator+ViewController.m"; path = "BZWMediator/Classes/BZWMediator+ViewController.m"; sourceTree = "<group>"; };
-		B1FD5FD1B701EEE59C28048AC3EBADA7 /* YYYMessageSend-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYMessageSend-dummy.m"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BCE2DEC4C12C41358719FE5780C04CFD /* YYYTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYYTool.modulemap; sourceTree = "<group>"; };
-		BFA5F20810C17FD4EFE0C8B2AAEBB8C8 /* BZWMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BZWMediator.modulemap; sourceTree = "<group>"; };
-		C2195E896A55BED1631EE022BEC66877 /* BZWBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BZWBase.modulemap; sourceTree = "<group>"; };
-		C554B3CEAF7282B25FCCADDABED39206 /* BZWConstants.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BZWConstants.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6CC501076C3ACBDE1DD6135330FF05E /* YYYMessageSend.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYMessageSend.xcconfig; sourceTree = "<group>"; };
-		C862D2E018BC8F60AEA74BF699CAB971 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C97E981303369395AFC52B14483571B1 /* BZWConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BZWConstants.h; path = BZWBase/Classes/Helper/BZWConstants/BZWConstants.h; sourceTree = "<group>"; };
-		CAD9049914438219C1D4336AC7FDE9D4 /* YYYMessageSend.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYYMessageSend.modulemap; sourceTree = "<group>"; };
-		CC6C896BACAEFC0BB05A74D586E0A426 /* BZWWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BZWWebViewController.m; path = BZWWebViewController/Classes/BZWWebViewController.m; sourceTree = "<group>"; };
-		CD9A0AE901CF49704F3DC8AE78DC8277 /* bzw_share_image@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bzw_share_image@2x.png"; path = "BZWBase/Assets/Helper/BZWConstants/bzw_share_image@2x.png"; sourceTree = "<group>"; };
-		CF1C64AE3511FEB992EFE6BDDCC56A75 /* YYYTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYTool-dummy.m"; sourceTree = "<group>"; };
-		CF72352BC7F7D2302AE7F82F4EC799F2 /* Pods-YYYNavigationController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYYNavigationController-Info.plist"; sourceTree = "<group>"; };
-		D0F940690D0D4AEA489F8CD5BECA240E /* YYYTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYYTool-Info.plist"; sourceTree = "<group>"; };
-		D1AE8EE307A2D552331CCF4B871CDC5B /* BZWMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BZWMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D25C03B701DA508E9617F3B741AACFDA /* YYYNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYNavigationController-prefix.pch"; sourceTree = "<group>"; };
-		E4BE5062215483FC93CC6280281040BE /* Pods-YYYNavigationController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYYNavigationController-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5736F9E61D19815A334D83624BB9245 /* 750-375.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "750-375.png"; path = "BZWBase/Assets/Helper/BZWConstants/750-375.png"; sourceTree = "<group>"; };
-		F55444D0764D01E05430B66B5B539DF0 /* BZWBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BZWBase.xcconfig; sourceTree = "<group>"; };
-		F69919D39E4349620AFB7E453203D568 /* Pods-YYYNavigationController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYYNavigationController-acknowledgements.plist"; sourceTree = "<group>"; };
-		F6A90A45383138C8A64692BE70060B67 /* Pods-YYYNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYYNavigationController-umbrella.h"; sourceTree = "<group>"; };
-		F6BCE4EE2AFFDABA5AFA50BE3B7F1D9E /* YYYMessageSend-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYYMessageSend-Info.plist"; sourceTree = "<group>"; };
-		F75C2ACEC095CA5E479EFD732B8F1B0F /* 750-750.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "750-750.png"; path = "BZWBase/Assets/Helper/BZWConstants/750-750.png"; sourceTree = "<group>"; };
-		F7DCFEC9FAC9B7DA15F3F5DC04F82EF9 /* BZWMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BZWMediator-dummy.m"; sourceTree = "<group>"; };
-		FE5EE2F1AB21C02CB1276B899C248E01 /* YYYNavigationController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYYNavigationController-Info.plist"; sourceTree = "<group>"; };
-		FE5F6E3FF52B52D91EE5E769883E664C /* BZWMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BZWMediator-umbrella.h"; sourceTree = "<group>"; };
-		FF0698DFC0A39AC6A72BA2AB16AEEFB5 /* YYYNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYYNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1944E04242667C0D86772A9B71645346 /* YYYNavigationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYNavigationManager.m; path = YYYNavigationController/Classes/YYYNavigationManager.m; sourceTree = "<group>"; };
+		1CB628E83CA6BDCEDA6011A54222D3EC /* YYYNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYNavigationController-umbrella.h"; sourceTree = "<group>"; };
+		1D6C60150FCA5759F1561D8B27C08DF5 /* Pods-YYYNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YYYNavigationController.modulemap"; sourceTree = "<group>"; };
+		33E6693B974BC47901F842214B1830C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4353DC252C544E500F838DC53AC23FC9 /* YYYNavigationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYNavigationManager.h; path = YYYNavigationController/Classes/YYYNavigationManager.h; sourceTree = "<group>"; };
+		43A6F54034324A9DA6E1FAA3D0BDA21B /* Pods-YYYNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYYNavigationController-dummy.m"; sourceTree = "<group>"; };
+		48D8720C7E25ECE72EBFA714D0357FBB /* YYYNavigationController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YYYNavigationController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6810DC9463F9912EE93EF7D59427D7C7 /* YYYNavigationController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYYNavigationController-Info.plist"; sourceTree = "<group>"; };
+		6A3337BD66D730E03BC81A1FA689D372 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78C27E6F0C17BBDA41F02D05935B113F /* Pods-YYYNavigationController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYYNavigationController-frameworks.sh"; sourceTree = "<group>"; };
+		7DE980BBB5F64ED81A1BBD7E61AA7566 /* Pods-YYYNavigationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYNavigationController.debug.xcconfig"; sourceTree = "<group>"; };
+		8DFB5D5C95649B662B8A17732AA5464E /* Pods-YYYNavigationController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYYNavigationController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99DE750A4546BAD4DC9EF769B2F93FB2 /* YYYNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYYNavigationController-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B980107B711502A382DB7A44F315625C /* Pods-YYYNavigationController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYYNavigationController-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB6A2A129CDCD69D76456C8FA1A3D660 /* YYYNavigationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYNavigationController.release.xcconfig; sourceTree = "<group>"; };
+		BBDF95916F9DBFD3A0578CAA6B85003A /* Pods-YYYNavigationController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYYNavigationController-Info.plist"; sourceTree = "<group>"; };
+		C2581A32F8D3A310D7921C2E236C311E /* YYYNavigationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYYNavigationController.debug.xcconfig; sourceTree = "<group>"; };
+		D7038FD7378A94C4AC3D3FCF5A2D7ED2 /* YYYNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYYNavigationController.h; path = YYYNavigationController/Classes/YYYNavigationController.h; sourceTree = "<group>"; };
+		E2E6DF573D54AD913871AA171989675C /* YYYNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYYNavigationController-prefix.pch"; sourceTree = "<group>"; };
+		E3305956B7BBA4C0D2DB83822A06E8C1 /* Pods-YYYNavigationController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YYYNavigationController"; path = Pods_YYYNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D657458774D2DC34E99EE9470ECF56 /* Pods-YYYNavigationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYYNavigationController.release.xcconfig"; sourceTree = "<group>"; };
+		EC100D729DFE2418C6B86B8EA370DACD /* YYYNavigationController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYYNavigationController; path = YYYNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC49489D945CC72ED6E274D78FEF3F26 /* Pods-YYYNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYYNavigationController-umbrella.h"; sourceTree = "<group>"; };
+		F57E256C388070E9EE1DC9118E9E77DA /* YYYNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYYNavigationController.m; path = YYYNavigationController/Classes/YYYNavigationController.m; sourceTree = "<group>"; };
+		FA60C2D98D447D6230958A44B5C84B41 /* YYYNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYYNavigationController.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A445310F2DB10FFC894B06423F4BD68 /* Frameworks */ = {
+		70095222B4BBF2B92A7842239296E0E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA9E6E2C949FA4EE40E5DA98A52928C /* Foundation.framework in Frameworks */,
+				EF307BE86F4A6488E1AEDFF6A473E040 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4205090ABB0B54C4ACE801F2EFCD996A /* Frameworks */ = {
+		BCA6A1925A6A3EDDEA2230E28CDAC3FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C5D60CA3E5A145627A0EAED086B2135 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68897AC3BDFCEBB2DA9E72C74B30868F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B4E8B346D4CD745E451F0FF0CFAC6FD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6429657DC6742F8FB5A7A8034855619D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		683DD6420DCA1CE1E44CF36AEC31FEAE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7C0A0DA899E58BAFDBEFA0DB2C2DC445 /* Foundation.framework in Frameworks */,
-				4D6664F7150F66551A566874A3E93C95 /* YYYMessageSend.framework in Frameworks */,
-				923420716670A41E109AB91D80005138 /* YYYTool.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B747F3C86AB3E3169584DB82CBC16564 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88C143B8702E6F1A39FAC525494E0D72 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1721D3558C10BFEA32FD63F6D29E1DE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C99751F05EB23AE654ABBD2E315499C4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA8C9CB263034CBB6AC81B1F22A44CA8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8461996D7261E4451B8B5D78E30540FA /* Foundation.framework in Frameworks */,
+				B19A485D0206F19CB494DE458714A1AB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D6DEB30DD4FEDCC88018FF87ECF1059 /* Support Files */ = {
+		10A47AC6FC29F991BFE6D395B0BA9BDD /* YYYNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				C2195E896A55BED1631EE022BEC66877 /* BZWBase.modulemap */,
-				F55444D0764D01E05430B66B5B539DF0 /* BZWBase.xcconfig */,
-				724132C16F9C0C105E00CBF035AB7AA0 /* BZWBase-dummy.m */,
-				3B1F0AD84532B88B9A0E5CC449D9A090 /* BZWBase-prefix.pch */,
-				2B108EC30993347B3E77612C21497204 /* BZWBase-umbrella.h */,
-				58EDBE30FB42A9903F12D4701636DDB1 /* ResourceBundle-BZWConstants-BZWBase-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BZWBase";
-			sourceTree = "<group>";
-		};
-		187A3D23BE4F7FC5F1E3863E9A90A56E /* BZWBase */ = {
-			isa = PBXGroup;
-			children = (
-				E3C1A7101143E37B2DAB410098A49C4C /* Helper */,
-				0D6DEB30DD4FEDCC88018FF87ECF1059 /* Support Files */,
-			);
-			path = BZWBase;
-			sourceTree = "<group>";
-		};
-		22071766AD5BE4A9AB34538A406C8BC0 /* Pods-YYYNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				79C13320E92C665EC0B0B8FE56304D96 /* Pods-YYYNavigationController.modulemap */,
-				E4BE5062215483FC93CC6280281040BE /* Pods-YYYNavigationController-acknowledgements.markdown */,
-				F69919D39E4349620AFB7E453203D568 /* Pods-YYYNavigationController-acknowledgements.plist */,
-				A6DB38872C576CFF8711BA2FD4D817E1 /* Pods-YYYNavigationController-dummy.m */,
-				7A59380AA6048E638A24B880A354B892 /* Pods-YYYNavigationController-frameworks.sh */,
-				CF72352BC7F7D2302AE7F82F4EC799F2 /* Pods-YYYNavigationController-Info.plist */,
-				6552E0BA01785E681D4A5A8CAB945719 /* Pods-YYYNavigationController-resources.sh */,
-				F6A90A45383138C8A64692BE70060B67 /* Pods-YYYNavigationController-umbrella.h */,
-				284774C2F9B45BD3FAF9ADF7B514A71C /* Pods-YYYNavigationController.debug.xcconfig */,
-				1136E7AC6386CC541B374B9504F2B61B /* Pods-YYYNavigationController.release.xcconfig */,
-			);
-			name = "Pods-YYYNavigationController";
-			path = "Target Support Files/Pods-YYYNavigationController";
-			sourceTree = "<group>";
-		};
-		2851384F5D2960BF21D04C92D8F3025D /* YYYNavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				6A01A465166F6FA5322B5549F9910AB2 /* YYYNavigationController.h */,
-				1B5BBC58F601B7B1C4FB48FD04BE3773 /* YYYNavigationController.m */,
-				41AD91CE12D3AB78FE8A82A85F0C63EF /* YYYNavigationManager.h */,
-				3CB7ADC23DC17D89EC59E3969736864D /* YYYNavigationManager.m */,
-				4ADF860E96947CDACF0C5C5E8E05B9F2 /* Pod */,
-				913ECD12AC0E0434CA23AAA248285F42 /* Support Files */,
+				D7038FD7378A94C4AC3D3FCF5A2D7ED2 /* YYYNavigationController.h */,
+				F57E256C388070E9EE1DC9118E9E77DA /* YYYNavigationController.m */,
+				4353DC252C544E500F838DC53AC23FC9 /* YYYNavigationManager.h */,
+				1944E04242667C0D86772A9B71645346 /* YYYNavigationManager.m */,
+				E85C48C2200A837D9A93B9C870FE6E5A /* Pod */,
+				6EF1CFBC914570D0D649406AF6C810A1 /* Support Files */,
 			);
 			name = YYYNavigationController;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		355D49DB40226359507EED3846DDF1B9 /* NSString */ = {
+		4D35F93CEE34C044B35BA54C9771A5AB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4E3C5C265AA95F4465E3C8D29EC46722 /* NSString+YYYAddition.h */,
-				6A1C7281D9438E60CC28FC5B84BA30EF /* NSString+YYYAddition.m */,
+				DA8DBC4FADC57F6837300991767FC319 /* Pods-YYYNavigationController */,
 			);
-			name = NSString;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3F492516EE42337757D37480A26E7DFD /* Foundation */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				355D49DB40226359507EED3846DDF1B9 /* NSString */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = Foundation;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		496AAB452D431453DD9D0CB61C48A6F4 /* UIKit */ = {
+		6911AB8C172AF88D165760A4B13BE471 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				55166A670FA3FA637F172643D68E6829 /* UIWindow */,
+				10A47AC6FC29F991BFE6D395B0BA9BDD /* YYYNavigationController */,
 			);
-			name = UIKit;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4ADF860E96947CDACF0C5C5E8E05B9F2 /* Pod */ = {
+		6EF1CFBC914570D0D649406AF6C810A1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB803605ED35185C72A7F03B35D23819 /* LICENSE */,
-				1C92C0EA1390DCCB57B2CE504A07F9DC /* README.md */,
-				28656A7360111FB2E093BAA03DDAFC02 /* YYYNavigationController.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		529ADD939E4D7C5AFFADE096A2573959 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				461206D140826A819A49C8DD054DD639 /* YYYMessageSend.framework */,
-				39443D93240632079B2A3766A9FDD3F9 /* YYYTool.framework */,
-				954C06DCEF6AE99039A94B6641733FA0 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		55166A670FA3FA637F172643D68E6829 /* UIWindow */ = {
-			isa = PBXGroup;
-			children = (
-				2AC3610F1201C7C020B7F67AD3E7AEF6 /* UIWindow+YYYAddition.h */,
-				895FAC9C41A2AB02BA5E1198B9C2E626 /* UIWindow+YYYAddition.m */,
-			);
-			name = UIWindow;
-			sourceTree = "<group>";
-		};
-		5BA0CB7D8587E368DE9D2792FC43D0E3 /* BZWMediator */ = {
-			isa = PBXGroup;
-			children = (
-				6A1D2876713522BC34A5A29DCB36FB07 /* BZWMediator.h */,
-				0D22B9381DFE925699AAB0839DDD86FA /* BZWMediator.m */,
-				7E32E480D2C868FA4230924DD4F0F95A /* BZWMediator+ViewController.h */,
-				B105A0ABF4FAFA17B2C024C466D54DB3 /* BZWMediator+ViewController.m */,
-				F021143ECCD6135F6C072770B4121B5F /* Support Files */,
-			);
-			path = BZWMediator;
-			sourceTree = "<group>";
-		};
-		5DC44DC5421686D27ECA200687B0F88D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BCE2DEC4C12C41358719FE5780C04CFD /* YYYTool.modulemap */,
-				88003111D1459950FA88EFB38213B78F /* YYYTool.xcconfig */,
-				CF1C64AE3511FEB992EFE6BDDCC56A75 /* YYYTool-dummy.m */,
-				D0F940690D0D4AEA489F8CD5BECA240E /* YYYTool-Info.plist */,
-				03F5F383EB0074455AD46621A866BD3B /* YYYTool-prefix.pch */,
-				A55060DD17F1FA1C376207A164C15376 /* YYYTool-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YYYTool";
-			sourceTree = "<group>";
-		};
-		62DEA59325375E63D54423E76FB8F790 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A88929AE71294FD2495013BE51BDC994 /* BZWWebViewController.modulemap */,
-				0EEAFE730B97CA3D2AE0F61B037D71F3 /* BZWWebViewController.xcconfig */,
-				3E7F68CE0986BA505CC55AD3ADD91235 /* BZWWebViewController-dummy.m */,
-				242A9AF163736FF541906BE164D8DE7E /* BZWWebViewController-prefix.pch */,
-				3791E794CDFDFC42E59C5B7E69A39231 /* BZWWebViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BZWWebViewController";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				ADD9332A8D98AEE3CB0AF566520B7725 /* Development Pods */,
-				529ADD939E4D7C5AFFADE096A2573959 /* Frameworks */,
-				9B8D3481517AEC7FC5C108B166C91C28 /* Pods */,
-				C6C34A46BE197C5F81566A411B3C55FD /* Products */,
-				C54C885ACE8CE2AEFC83F42808E14556 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		814FE75DCAA6F46416DC3B95A76855BB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CAD9049914438219C1D4336AC7FDE9D4 /* YYYMessageSend.modulemap */,
-				C6CC501076C3ACBDE1DD6135330FF05E /* YYYMessageSend.xcconfig */,
-				B1FD5FD1B701EEE59C28048AC3EBADA7 /* YYYMessageSend-dummy.m */,
-				F6BCE4EE2AFFDABA5AFA50BE3B7F1D9E /* YYYMessageSend-Info.plist */,
-				65DE9F2CD2713325312CE355CA4BAD5B /* YYYMessageSend-prefix.pch */,
-				9E0719F47FF50F06C7C6024D72C261D5 /* YYYMessageSend-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YYYMessageSend";
-			sourceTree = "<group>";
-		};
-		913ECD12AC0E0434CA23AAA248285F42 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5CD5FD9608EAF6985D4BDE03569A2259 /* YYYNavigationController.modulemap */,
-				A1388960849F6FF912896D8570A0486D /* YYYNavigationController.xcconfig */,
-				98D841CF5781EEF69AE660782FDBE58D /* YYYNavigationController-dummy.m */,
-				FE5EE2F1AB21C02CB1276B899C248E01 /* YYYNavigationController-Info.plist */,
-				D25C03B701DA508E9617F3B741AACFDA /* YYYNavigationController-prefix.pch */,
-				7586704E90D17271F05D4723125CE3FD /* YYYNavigationController-umbrella.h */,
+				FA60C2D98D447D6230958A44B5C84B41 /* YYYNavigationController.modulemap */,
+				99DE750A4546BAD4DC9EF769B2F93FB2 /* YYYNavigationController-dummy.m */,
+				6810DC9463F9912EE93EF7D59427D7C7 /* YYYNavigationController-Info.plist */,
+				E2E6DF573D54AD913871AA171989675C /* YYYNavigationController-prefix.pch */,
+				1CB628E83CA6BDCEDA6011A54222D3EC /* YYYNavigationController-umbrella.h */,
+				C2581A32F8D3A310D7921C2E236C311E /* YYYNavigationController.debug.xcconfig */,
+				BB6A2A129CDCD69D76456C8FA1A3D660 /* YYYNavigationController.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YYYNavigationController";
 			sourceTree = "<group>";
 		};
-		954C06DCEF6AE99039A94B6641733FA0 /* iOS */ = {
+		818AAAFB1E1A21353C8963B6401696A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C862D2E018BC8F60AEA74BF699CAB971 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		9B8D3481517AEC7FC5C108B166C91C28 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				187A3D23BE4F7FC5F1E3863E9A90A56E /* BZWBase */,
-				5BA0CB7D8587E368DE9D2792FC43D0E3 /* BZWMediator */,
-				B5992513BDF7CFCD9B1DFA8C194DBDDA /* BZWWebViewController */,
-				AAE4AA9BE4DDE6FB1AF1E59F539CA332 /* YYYMessageSend */,
-				B1593333EBA6F66522A13FAD607F032E /* YYYTool */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AAE4AA9BE4DDE6FB1AF1E59F539CA332 /* YYYMessageSend */ = {
-			isa = PBXGroup;
-			children = (
-				6190E455D6714E1F497E9DF37209284B /* YYYMessageSend.h */,
-				82019AC5ED6B40C6BF1117CB1E74D679 /* YYYMessageSend.m */,
-				814FE75DCAA6F46416DC3B95A76855BB /* Support Files */,
-			);
-			path = YYYMessageSend;
-			sourceTree = "<group>";
-		};
-		ADD9332A8D98AEE3CB0AF566520B7725 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2851384F5D2960BF21D04C92D8F3025D /* YYYNavigationController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B1593333EBA6F66522A13FAD607F032E /* YYYTool */ = {
-			isa = PBXGroup;
-			children = (
-				D29A7CE733762B3007B52E74318C3B88 /* Category */,
-				5DC44DC5421686D27ECA200687B0F88D /* Support Files */,
-			);
-			path = YYYTool;
-			sourceTree = "<group>";
-		};
-		B5992513BDF7CFCD9B1DFA8C194DBDDA /* BZWWebViewController */ = {
-			isa = PBXGroup;
-			children = (
-				5714D4768069852A02A573DC65CB4694 /* BZWWebViewController.h */,
-				CC6C896BACAEFC0BB05A74D586E0A426 /* BZWWebViewController.m */,
-				62DEA59325375E63D54423E76FB8F790 /* Support Files */,
-			);
-			path = BZWWebViewController;
-			sourceTree = "<group>";
-		};
-		C54C885ACE8CE2AEFC83F42808E14556 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				22071766AD5BE4A9AB34538A406C8BC0 /* Pods-YYYNavigationController */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C6C34A46BE197C5F81566A411B3C55FD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				198A5AF5037B808E706914815C71C5A3 /* BZWBase.framework */,
-				C554B3CEAF7282B25FCCADDABED39206 /* BZWConstants.bundle */,
-				D1AE8EE307A2D552331CCF4B871CDC5B /* BZWMediator.framework */,
-				8FE99C39D17D22E672BD9276AC5A3312 /* BZWWebViewController.framework */,
-				4538676CFDB7720F97698F8EFE9ECCF7 /* Pods_YYYNavigationController.framework */,
-				4EF7009D9413BC7F062EE42C8A3F21FE /* YYYMessageSend.framework */,
-				FF0698DFC0A39AC6A72BA2AB16AEEFB5 /* YYYNavigationController.framework */,
-				49238CEFF83F8BA54E14EE1D83E6A011 /* YYYTool.framework */,
+				E3305956B7BBA4C0D2DB83822A06E8C1 /* Pods-YYYNavigationController */,
+				EC100D729DFE2418C6B86B8EA370DACD /* YYYNavigationController */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D29A7CE733762B3007B52E74318C3B88 /* Category */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				3F492516EE42337757D37480A26E7DFD /* Foundation */,
-				496AAB452D431453DD9D0CB61C48A6F4 /* UIKit */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6911AB8C172AF88D165760A4B13BE471 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				818AAAFB1E1A21353C8963B6401696A1 /* Products */,
+				4D35F93CEE34C044B35BA54C9771A5AB /* Targets Support Files */,
 			);
-			name = Category;
 			sourceTree = "<group>";
 		};
-		E1244E97CE0F95D8E9F68D54447BC02A /* BZWConstants */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C97E981303369395AFC52B14483571B1 /* BZWConstants.h */,
-				A5897B3BC03A699F56ED8DBF8C24408D /* BZWConstants.m */,
-				E1AFB3FBBFE53C8C5698A7583199ABA5 /* Resources */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			name = BZWConstants;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E1AFB3FBBFE53C8C5698A7583199ABA5 /* Resources */ = {
+		DA8DBC4FADC57F6837300991767FC319 /* Pods-YYYNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				6CC162C96463C0D16E7C41CB3909D295 /* 240-240@2x.png */,
-				0D6ECD185FF48A183B9AF2D4B1882D1D /* 240-240@3x.png */,
-				44F55872E86E4D00DFDC46909D26A9C2 /* 750-180.png */,
-				5B48E71B8A88BA0E7786919E7399F9F9 /* 750-320.png */,
-				E5736F9E61D19815A334D83624BB9245 /* 750-375.png */,
-				080BF688BAA8EDD0A2DF44FE681E1B27 /* 750-560.png */,
-				F75C2ACEC095CA5E479EFD732B8F1B0F /* 750-750.png */,
-				ABD31C7EAF3E1C9EBA2D86579351ABD1 /* btn_top_back@2x.png */,
-				6270BA51AB697C5D33C60A14B4C3F209 /* btn_top_back@3x.png */,
-				CD9A0AE901CF49704F3DC8AE78DC8277 /* bzw_share_image@2x.png */,
-				70CA1A140958F21EC58CD9583881B722 /* bzw_share_image@3x.png */,
-				48B70D2A19757D5474444BB0AAC3C5BB /* icon_med01_05@2x.png */,
-				A1CF438C209E2C146D7EE031D7703009 /* icon_med01_05@3x.png */,
+				1D6C60150FCA5759F1561D8B27C08DF5 /* Pods-YYYNavigationController.modulemap */,
+				8DFB5D5C95649B662B8A17732AA5464E /* Pods-YYYNavigationController-acknowledgements.markdown */,
+				B980107B711502A382DB7A44F315625C /* Pods-YYYNavigationController-acknowledgements.plist */,
+				43A6F54034324A9DA6E1FAA3D0BDA21B /* Pods-YYYNavigationController-dummy.m */,
+				78C27E6F0C17BBDA41F02D05935B113F /* Pods-YYYNavigationController-frameworks.sh */,
+				BBDF95916F9DBFD3A0578CAA6B85003A /* Pods-YYYNavigationController-Info.plist */,
+				EC49489D945CC72ED6E274D78FEF3F26 /* Pods-YYYNavigationController-umbrella.h */,
+				7DE980BBB5F64ED81A1BBD7E61AA7566 /* Pods-YYYNavigationController.debug.xcconfig */,
+				E7D657458774D2DC34E99EE9470ECF56 /* Pods-YYYNavigationController.release.xcconfig */,
 			);
-			name = Resources;
+			name = "Pods-YYYNavigationController";
+			path = "Target Support Files/Pods-YYYNavigationController";
 			sourceTree = "<group>";
 		};
-		E3C1A7101143E37B2DAB410098A49C4C /* Helper */ = {
+		E85C48C2200A837D9A93B9C870FE6E5A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E1244E97CE0F95D8E9F68D54447BC02A /* BZWConstants */,
+				33E6693B974BC47901F842214B1830C6 /* LICENSE */,
+				6A3337BD66D730E03BC81A1FA689D372 /* README.md */,
+				48D8720C7E25ECE72EBFA714D0357FBB /* YYYNavigationController.podspec */,
 			);
-			name = Helper;
-			sourceTree = "<group>";
-		};
-		F021143ECCD6135F6C072770B4121B5F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BFA5F20810C17FD4EFE0C8B2AAEBB8C8 /* BZWMediator.modulemap */,
-				681A2B06D013153157FB9F4C01D8AA59 /* BZWMediator.xcconfig */,
-				F7DCFEC9FAC9B7DA15F3F5DC04F82EF9 /* BZWMediator-dummy.m */,
-				0573B7EB35D5715D2AACD98B1FDE4301 /* BZWMediator-Info.plist */,
-				0F3A8AA7B771D9B0D1C8A341BBD32E73 /* BZWMediator-prefix.pch */,
-				FE5F6E3FF52B52D91EE5E769883E664C /* BZWMediator-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BZWMediator";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		11205474E6E993E18C8A41BC2F8614AF /* Headers */ = {
+		330734AF644DB050E978BA2FEEC6BA55 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95F5198BF40068440852C9E93A70A4B5 /* Pods-YYYNavigationController-umbrella.h in Headers */,
+				ECFA8D3E8561FC31AB7C1563E0E71625 /* Pods-YYYNavigationController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2123BD9F8D6199125129DBA83EE0D46A /* Headers */ = {
+		4D2DB0BD895CF943B116F3FCD8E89153 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27FAAADD3EB9C138CBB82701F9CF38EC /* YYYMessageSend-umbrella.h in Headers */,
-				0CCEBADE419823284DA94AF0303C5BC0 /* YYYMessageSend.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E21AA6F4F18C7BC78D85647852C3CF8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60F5B3DD83C2A5750933A29BD167306F /* BZWWebViewController-umbrella.h in Headers */,
-				4A64112BCE5A86167874D3BE9524B305 /* BZWWebViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		970FD77837A37DC9DDDE6D679B815BE1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0B8233B466E3572A9A253C8627F776E /* BZWMediator+ViewController.h in Headers */,
-				37E4329C81DF60D4D523F1AA4B35AD32 /* BZWMediator-umbrella.h in Headers */,
-				D6EA6CBF03D5C4D306B3B07674216786 /* BZWMediator.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B099F71D4593EDB77A53307E1607234D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B42981356D5B81CE748010320C9682A /* YYYNavigationController-umbrella.h in Headers */,
-				C83AB7017BCAC81BECD780A030500BC0 /* YYYNavigationController.h in Headers */,
-				53B426DE946FF98E4B28D04EA2277478 /* YYYNavigationManager.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDC8E78050384BF0E0F8F0B64DB62296 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7963EFED62BEAAFB35C199FA8DC564B3 /* BZWBase-umbrella.h in Headers */,
-				B8BEBB8CF9529DECEFD8A6EEA6291F7B /* BZWConstants.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4E471830DECA797F67244536A01459B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D889CFA021557ECE6AB05871A89CF428 /* NSString+YYYAddition.h in Headers */,
-				11EFE955471CAFAAD8C91ABB65EBD3D8 /* UIWindow+YYYAddition.h in Headers */,
-				A7CAB5650D9017BDB3666FB8C9D315B6 /* YYYTool-umbrella.h in Headers */,
+				3F4C4E8E1EAA1B3D1739C316214CECF3 /* YYYNavigationController.h in Headers */,
+				5284BFF20867B6C2576A3606420B53B2 /* YYYNavigationController-umbrella.h in Headers */,
+				78FF8D41154FBF49B0FA43D7616F11AB /* YYYNavigationManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CA33466607D19A4393FE7CFC5E95E5D /* BZWWebViewController */ = {
+		42ED341AF531F9568CC5F9840E24B7F4 /* YYYNavigationController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BA93580C742FEB5088FCA7332C1D74A /* Build configuration list for PBXNativeTarget "BZWWebViewController" */;
+			buildConfigurationList = FF856A7D88D4B91A51C2187AEE60818F /* Build configuration list for PBXNativeTarget "YYYNavigationController" */;
 			buildPhases = (
-				2E21AA6F4F18C7BC78D85647852C3CF8 /* Headers */,
-				D892A87E288339603726E00811F16DE7 /* Sources */,
-				FA8C9CB263034CBB6AC81B1F22A44CA8 /* Frameworks */,
-				1A16750339226A18C4BFA6F69E0B1366 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				29F43F544CA786AD103AED19FD85F0D6 /* PBXTargetDependency */,
-				EFEFBD8825612FC53AD946F031E7EA56 /* PBXTargetDependency */,
-				FBE35CD373FFD079E84335BFF97723AD /* PBXTargetDependency */,
-			);
-			name = BZWWebViewController;
-			productName = BZWWebViewController;
-			productReference = 8FE99C39D17D22E672BD9276AC5A3312 /* BZWWebViewController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		211A0D5CC045F0FF1AC549BE5239A334 /* YYYNavigationController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 587276A5059A98E14900F9E39E245CDB /* Build configuration list for PBXNativeTarget "YYYNavigationController" */;
-			buildPhases = (
-				B099F71D4593EDB77A53307E1607234D /* Headers */,
-				7A54C3F56ADEADBF08F42A7791FE57B1 /* Sources */,
-				4C5D60CA3E5A145627A0EAED086B2135 /* Frameworks */,
-				C51F53155260F7488C201BACD13132AD /* Resources */,
+				4D2DB0BD895CF943B116F3FCD8E89153 /* Headers */,
+				D2D99FB4CD0DC9A4472387D2FE046F5A /* Sources */,
+				BCA6A1925A6A3EDDEA2230E28CDAC3FF /* Frameworks */,
+				643461A3684643F275427C69994F160D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -750,224 +226,65 @@
 			);
 			name = YYYNavigationController;
 			productName = YYYNavigationController;
-			productReference = FF0698DFC0A39AC6A72BA2AB16AEEFB5 /* YYYNavigationController.framework */;
+			productReference = EC100D729DFE2418C6B86B8EA370DACD /* YYYNavigationController */;
 			productType = "com.apple.product-type.framework";
 		};
-		2E1F8B7AFA5CB6145DC4A46BD90FD352 /* BZWMediator */ = {
+		5B3CF5E367F1BE9A83C6A170FFEF8F2B /* Pods-YYYNavigationController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C18A69700A1E56FF1ADA5DED2A9DF60E /* Build configuration list for PBXNativeTarget "BZWMediator" */;
+			buildConfigurationList = 0B3EDCA6D98B848DE626A255D6C504AD /* Build configuration list for PBXNativeTarget "Pods-YYYNavigationController" */;
 			buildPhases = (
-				970FD77837A37DC9DDDE6D679B815BE1 /* Headers */,
-				DFCB752D293C98A66473F565FBDE2AC7 /* Sources */,
-				683DD6420DCA1CE1E44CF36AEC31FEAE /* Frameworks */,
-				28D48B8655293020960B28D0BFD669BA /* Resources */,
+				330734AF644DB050E978BA2FEEC6BA55 /* Headers */,
+				D6FA6F0EFD43C6E5549E7B28BFB3401E /* Sources */,
+				70095222B4BBF2B92A7842239296E0E1 /* Frameworks */,
+				A79369B8F439FD70D7565C958DC70F57 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5124110256592AAFD2246B4EC7EA71DB /* PBXTargetDependency */,
-				948509E193CA9912E6268DACEAB124C2 /* PBXTargetDependency */,
-			);
-			name = BZWMediator;
-			productName = BZWMediator;
-			productReference = D1AE8EE307A2D552331CCF4B871CDC5B /* BZWMediator.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3060BB352B8FBF56E46751DCABE2C990 /* YYYTool */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 033616F8D1B6D6E57D171A5E05E9F74A /* Build configuration list for PBXNativeTarget "YYYTool" */;
-			buildPhases = (
-				D4E471830DECA797F67244536A01459B /* Headers */,
-				BF41B6839B5976D5179B29B52F7D1EC3 /* Sources */,
-				C1721D3558C10BFEA32FD63F6D29E1DE /* Frameworks */,
-				B3045B371A1F00A5E69EFB112B32D2C0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YYYTool;
-			productName = YYYTool;
-			productReference = 49238CEFF83F8BA54E14EE1D83E6A011 /* YYYTool.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		50CDC26FE1E2C4C764BEB46E74BB0AD4 /* Pods-YYYNavigationController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F202CF48E63E4173C6E9D6478A4ED2B1 /* Build configuration list for PBXNativeTarget "Pods-YYYNavigationController" */;
-			buildPhases = (
-				11205474E6E993E18C8A41BC2F8614AF /* Headers */,
-				4D5D1DF23426F442C189B2406B388B50 /* Sources */,
-				B747F3C86AB3E3169584DB82CBC16564 /* Frameworks */,
-				3EB2497A89C0F09C4B806F1A9EA8A86E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				096430DEE0EAA0997239D7161CA2C2D2 /* PBXTargetDependency */,
-				6C13DBE6485E80C07D06B47B8AA4AE37 /* PBXTargetDependency */,
-				C1A243582C35ABE959F6E541E8A80C9A /* PBXTargetDependency */,
-				9007D1558FDD857859735EC8C904E872 /* PBXTargetDependency */,
-				2C875E4F4E01BCF0EFC0C5102291AAE1 /* PBXTargetDependency */,
-				89D295764052218A486D348C8CB6EB3B /* PBXTargetDependency */,
+				9FF9F6330D4D9A3B1205E798BD9E8FA1 /* PBXTargetDependency */,
 			);
 			name = "Pods-YYYNavigationController";
-			productName = "Pods-YYYNavigationController";
-			productReference = 4538676CFDB7720F97698F8EFE9ECCF7 /* Pods_YYYNavigationController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A13D22C9E72114605BF66573168DDF05 /* BZWBase-BZWConstants */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB285A91922B5021CB8411BE9628E88F /* Build configuration list for PBXNativeTarget "BZWBase-BZWConstants" */;
-			buildPhases = (
-				BC11C5E8AA67604D3337B20AA716DFAC /* Sources */,
-				4205090ABB0B54C4ACE801F2EFCD996A /* Frameworks */,
-				2F2556083519433CC039AF8DECB318EF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "BZWBase-BZWConstants";
-			productName = "BZWBase-BZWConstants";
-			productReference = C554B3CEAF7282B25FCCADDABED39206 /* BZWConstants.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		A1EFCFFCAFC2451AA88DB81C3820ADE4 /* YYYMessageSend */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7C3BEEB86DC66433E5A68A8B3522711A /* Build configuration list for PBXNativeTarget "YYYMessageSend" */;
-			buildPhases = (
-				2123BD9F8D6199125129DBA83EE0D46A /* Headers */,
-				505699E4EDFD4130A4229765A0E68F84 /* Sources */,
-				5B4E8B346D4CD745E451F0FF0CFAC6FD /* Frameworks */,
-				25E3714D1F6E9CEE820F250176232422 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YYYMessageSend;
-			productName = YYYMessageSend;
-			productReference = 4EF7009D9413BC7F062EE42C8A3F21FE /* YYYMessageSend.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DCACA96A003E835824DFB1AD14B1D77D /* BZWBase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B7B44DC19EC2232464870D894E05F756 /* Build configuration list for PBXNativeTarget "BZWBase" */;
-			buildPhases = (
-				CDC8E78050384BF0E0F8F0B64DB62296 /* Headers */,
-				FC8EC827A1F443CDC5A0D4B17B941CB4 /* Sources */,
-				1A445310F2DB10FFC894B06423F4BD68 /* Frameworks */,
-				62477C7DFF31B8B4D84BD058EE6FA824 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B8BC25E20E1C4952208B53A9B7F538F8 /* PBXTargetDependency */,
-			);
-			name = BZWBase;
-			productName = BZWBase;
-			productReference = 198A5AF5037B808E706914815C71C5A3 /* BZWBase.framework */;
+			productName = Pods_YYYNavigationController;
+			productReference = E3305956B7BBA4C0D2DB83822A06E8C1 /* Pods-YYYNavigationController */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C6C34A46BE197C5F81566A411B3C55FD /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 818AAAFB1E1A21353C8963B6401696A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCACA96A003E835824DFB1AD14B1D77D /* BZWBase */,
-				A13D22C9E72114605BF66573168DDF05 /* BZWBase-BZWConstants */,
-				2E1F8B7AFA5CB6145DC4A46BD90FD352 /* BZWMediator */,
-				0CA33466607D19A4393FE7CFC5E95E5D /* BZWWebViewController */,
-				50CDC26FE1E2C4C764BEB46E74BB0AD4 /* Pods-YYYNavigationController */,
-				A1EFCFFCAFC2451AA88DB81C3820ADE4 /* YYYMessageSend */,
-				211A0D5CC045F0FF1AC549BE5239A334 /* YYYNavigationController */,
-				3060BB352B8FBF56E46751DCABE2C990 /* YYYTool */,
+				5B3CF5E367F1BE9A83C6A170FFEF8F2B /* Pods-YYYNavigationController */,
+				42ED341AF531F9568CC5F9840E24B7F4 /* YYYNavigationController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A16750339226A18C4BFA6F69E0B1366 /* Resources */ = {
+		643461A3684643F275427C69994F160D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25E3714D1F6E9CEE820F250176232422 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28D48B8655293020960B28D0BFD669BA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F2556083519433CC039AF8DECB318EF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB093D4D5D4805348E351965967E5C16 /* 240-240@2x.png in Resources */,
-				54863C66101FF070F1515644CEDE5FA9 /* 240-240@3x.png in Resources */,
-				7C54031060AC7EEA01D61E94A0106D55 /* 750-180.png in Resources */,
-				80086F60782106C4D2AFD14B10CF77F3 /* 750-320.png in Resources */,
-				AC06BF2AE6AFC93144B417BAC5030A28 /* 750-375.png in Resources */,
-				3555FB67A8DEA3C310F493D2FCF0D099 /* 750-560.png in Resources */,
-				B0A893BD38472EE46C53BA352BA9349C /* 750-750.png in Resources */,
-				FA445A89FC6CA0DC09452051BE9608C9 /* btn_top_back@2x.png in Resources */,
-				8F12321B0F87FC7B40A15D93D3351283 /* btn_top_back@3x.png in Resources */,
-				8882C1B7B31140882BDFC4FF970C70C5 /* bzw_share_image@2x.png in Resources */,
-				6F95699DD75006E4D306FE25328DC94F /* bzw_share_image@3x.png in Resources */,
-				608CF8412AA93254F04B2C65AEE7815E /* icon_med01_05@2x.png in Resources */,
-				A5F5D5DCA3DB7E13688EE33684403342 /* icon_med01_05@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3EB2497A89C0F09C4B806F1A9EA8A86E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62477C7DFF31B8B4D84BD058EE6FA824 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E19A542432DC2383264FA73B5496A3D2 /* BZWConstants.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3045B371A1F00A5E69EFB112B32D2C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C51F53155260F7488C201BACD13132AD /* Resources */ = {
+		A79369B8F439FD70D7565C958DC70F57 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -977,253 +294,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D5D1DF23426F442C189B2406B388B50 /* Sources */ = {
+		D2D99FB4CD0DC9A4472387D2FE046F5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB329324752E428F039510658B6FC834 /* Pods-YYYNavigationController-dummy.m in Sources */,
+				E56FEBA91E73E34DBCEB9B41538005F2 /* YYYNavigationController.m in Sources */,
+				D810D65B30C8CCD973BE642BFD067FE3 /* YYYNavigationController-dummy.m in Sources */,
+				844AD82AE4EB74E2091C36CC5B2BDF54 /* YYYNavigationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		505699E4EDFD4130A4229765A0E68F84 /* Sources */ = {
+		D6FA6F0EFD43C6E5549E7B28BFB3401E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9AB1865C28692E9D41C9C16774A079A /* YYYMessageSend-dummy.m in Sources */,
-				DE3AA4DBCA8B2A1D09F42C277CA64ACE /* YYYMessageSend.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7A54C3F56ADEADBF08F42A7791FE57B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0FABBBD7168BFCB34F5EC2586BE9E0D5 /* YYYNavigationController-dummy.m in Sources */,
-				35051BF2C44F91D293B7CC5B36C117B1 /* YYYNavigationController.m in Sources */,
-				8F1DC3128C6F0D68C940D8FB91F21A3B /* YYYNavigationManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC11C5E8AA67604D3337B20AA716DFAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF41B6839B5976D5179B29B52F7D1EC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B407D887D42CEE430D63B57E3857D77 /* NSString+YYYAddition.m in Sources */,
-				7A9F0AF115962F84B8E6EE69CB636FB5 /* UIWindow+YYYAddition.m in Sources */,
-				218FCFCDFF59600D70B09FA878D59F17 /* YYYTool-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D892A87E288339603726E00811F16DE7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46EBB61DBDA609AB1BEA52F4E5AD5CB8 /* BZWWebViewController-dummy.m in Sources */,
-				34BBF2410569D0234016C310C31D9CF0 /* BZWWebViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFCB752D293C98A66473F565FBDE2AC7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8C438669EBAB50987561B9BE06279D4 /* BZWMediator+ViewController.m in Sources */,
-				87F83269C6F8700259373C97C009D3EB /* BZWMediator-dummy.m in Sources */,
-				0C65920D364F4469430AB186CE8103C8 /* BZWMediator.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC8EC827A1F443CDC5A0D4B17B941CB4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F051029A0746C0F768C284E2826CA512 /* BZWBase-dummy.m in Sources */,
-				692719F3AC02E42E13740FBA28A05D6E /* BZWConstants.m in Sources */,
+				EA9CD25E8550381C94BAEB5B7DEC11DA /* Pods-YYYNavigationController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		096430DEE0EAA0997239D7161CA2C2D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BZWBase;
-			target = DCACA96A003E835824DFB1AD14B1D77D /* BZWBase */;
-			targetProxy = 90AE14EB929A04CE9CDDA2C3B9D18960 /* PBXContainerItemProxy */;
-		};
-		29F43F544CA786AD103AED19FD85F0D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BZWBase;
-			target = DCACA96A003E835824DFB1AD14B1D77D /* BZWBase */;
-			targetProxy = 9F697ABEF68C08BD5185777A08F3BC33 /* PBXContainerItemProxy */;
-		};
-		2C875E4F4E01BCF0EFC0C5102291AAE1 /* PBXTargetDependency */ = {
+		9FF9F6330D4D9A3B1205E798BD9E8FA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YYYNavigationController;
-			target = 211A0D5CC045F0FF1AC549BE5239A334 /* YYYNavigationController */;
-			targetProxy = AA08A170CBADC140B7B3EF7F27908DB9 /* PBXContainerItemProxy */;
-		};
-		5124110256592AAFD2246B4EC7EA71DB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYYMessageSend;
-			target = A1EFCFFCAFC2451AA88DB81C3820ADE4 /* YYYMessageSend */;
-			targetProxy = 07167F7945BEEE8648DA506C4A7483C6 /* PBXContainerItemProxy */;
-		};
-		6C13DBE6485E80C07D06B47B8AA4AE37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BZWMediator;
-			target = 2E1F8B7AFA5CB6145DC4A46BD90FD352 /* BZWMediator */;
-			targetProxy = D3634C67494FC14982813E680D083B92 /* PBXContainerItemProxy */;
-		};
-		89D295764052218A486D348C8CB6EB3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYYTool;
-			target = 3060BB352B8FBF56E46751DCABE2C990 /* YYYTool */;
-			targetProxy = DF3E6560FE787425F0BBDEC7FADFF462 /* PBXContainerItemProxy */;
-		};
-		9007D1558FDD857859735EC8C904E872 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYYMessageSend;
-			target = A1EFCFFCAFC2451AA88DB81C3820ADE4 /* YYYMessageSend */;
-			targetProxy = B5A8FB3E36B59BFCB273114552A4A371 /* PBXContainerItemProxy */;
-		};
-		948509E193CA9912E6268DACEAB124C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYYTool;
-			target = 3060BB352B8FBF56E46751DCABE2C990 /* YYYTool */;
-			targetProxy = 984FD3C67EECBE4C95444312DC6CA2B1 /* PBXContainerItemProxy */;
-		};
-		B8BC25E20E1C4952208B53A9B7F538F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "BZWBase-BZWConstants";
-			target = A13D22C9E72114605BF66573168DDF05 /* BZWBase-BZWConstants */;
-			targetProxy = F3247A2A0E6704ABCF071492D0D41E51 /* PBXContainerItemProxy */;
-		};
-		C1A243582C35ABE959F6E541E8A80C9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BZWWebViewController;
-			target = 0CA33466607D19A4393FE7CFC5E95E5D /* BZWWebViewController */;
-			targetProxy = A97A82C7CAF2A7DE57317BB0104EE617 /* PBXContainerItemProxy */;
-		};
-		EFEFBD8825612FC53AD946F031E7EA56 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BZWMediator;
-			target = 2E1F8B7AFA5CB6145DC4A46BD90FD352 /* BZWMediator */;
-			targetProxy = F02955D7CCAA5743B7506AD01AF65773 /* PBXContainerItemProxy */;
-		};
-		FBE35CD373FFD079E84335BFF97723AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYYTool;
-			target = 3060BB352B8FBF56E46751DCABE2C990 /* YYYTool */;
-			targetProxy = 29AFECC7199FD257823E1492E20EEC7A /* PBXContainerItemProxy */;
+			target = 42ED341AF531F9568CC5F9840E24B7F4 /* YYYNavigationController */;
+			targetProxy = B3D00E831E392E61C843F35FCE7578B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04F81D75C20588EEBBB2DFA5B3C36A44 /* Debug */ = {
+		08120A805706E55B60A71C5EB8E98B7B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EEAFE730B97CA3D2AE0F61B037D71F3 /* BZWWebViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BZWWebViewController/BZWWebViewController-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/BZWWebViewController/BZWWebViewController.modulemap";
-				PRODUCT_MODULE_NAME = BZWWebViewController;
-				PRODUCT_NAME = BZWWebViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		0F4B1A0C8FBD1CE5322B831BEBC43DC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 681A2B06D013153157FB9F4C01D8AA59 /* BZWMediator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BZWMediator/BZWMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BZWMediator/BZWMediator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BZWMediator/BZWMediator.modulemap";
-				PRODUCT_MODULE_NAME = BZWMediator;
-				PRODUCT_NAME = BZWMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2E9E68696E4AB5A22023333C8D10D8F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1388960849F6FF912896D8570A0486D /* YYYNavigationController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYYNavigationController/YYYNavigationController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYYNavigationController/YYYNavigationController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYYNavigationController/YYYNavigationController.modulemap";
-				PRODUCT_MODULE_NAME = YYYNavigationController;
-				PRODUCT_NAME = YYYNavigationController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3976E9BF68B08A9F2ECA7493A4BADBC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 284774C2F9B45BD3FAF9ADF7B514A71C /* Pods-YYYNavigationController.debug.xcconfig */;
+			baseConfigurationReference = E7D657458774D2DC34E99EE9470ECF56 /* Pods-YYYNavigationController.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1234,210 +339,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		414BE047290060ECFC78E005739B00A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88003111D1459950FA88EFB38213B78F /* YYYTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYYTool/YYYTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYYTool/YYYTool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYYTool/YYYTool.modulemap";
-				PRODUCT_MODULE_NAME = YYYTool;
-				PRODUCT_NAME = YYYTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		56BDA77DFDEC6A1786CF567FE00043D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F55444D0764D01E05430B66B5B539DF0 /* BZWBase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BZWBase";
-				INFOPLIST_FILE = "Target Support Files/BZWBase/ResourceBundle-BZWConstants-BZWBase-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = BZWConstants;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		644110F67EBBFB6C2FF8DE54DB3AC2E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88003111D1459950FA88EFB38213B78F /* YYYTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYYTool/YYYTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYYTool/YYYTool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYYTool/YYYTool.modulemap";
-				PRODUCT_MODULE_NAME = YYYTool;
-				PRODUCT_NAME = YYYTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		69A9B98F88BF76DB0BEA283E1EFCDBFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6CC501076C3ACBDE1DD6135330FF05E /* YYYMessageSend.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYYMessageSend/YYYMessageSend-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYYMessageSend/YYYMessageSend-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYYMessageSend/YYYMessageSend.modulemap";
-				PRODUCT_MODULE_NAME = YYYMessageSend;
-				PRODUCT_NAME = YYYMessageSend;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6D32CCD468D9258273FEB1188D280D6C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 681A2B06D013153157FB9F4C01D8AA59 /* BZWMediator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BZWMediator/BZWMediator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BZWMediator/BZWMediator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BZWMediator/BZWMediator.modulemap";
-				PRODUCT_MODULE_NAME = BZWMediator;
-				PRODUCT_NAME = BZWMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7BAA114F23C710C34961D5366F857D30 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F55444D0764D01E05430B66B5B539DF0 /* BZWBase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BZWBase/BZWBase-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/BZWBase/BZWBase.modulemap";
-				PRODUCT_MODULE_NAME = BZWBase;
-				PRODUCT_NAME = BZWBase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8178115DE7D0AA0478ABCA36EF146EA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1136E7AC6386CC541B374B9504F2B61B /* Pods-YYYNavigationController.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1454,11 +361,10 @@
 			};
 			name = Release;
 		};
-		881F7FF2A925273B768986A7F6B4F982 /* Debug */ = {
+		13097FFC03FEDF86C42313BAC15D6D3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1388960849F6FF912896D8570A0486D /* YYYNavigationController.xcconfig */;
+			baseConfigurationReference = C2581A32F8D3A310D7921C2E236C311E /* YYYNavigationController.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1470,8 +376,12 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYYNavigationController/YYYNavigationController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYYNavigationController/YYYNavigationController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/YYYNavigationController/YYYNavigationController.modulemap";
 				PRODUCT_MODULE_NAME = YYYNavigationController;
 				PRODUCT_NAME = YYYNavigationController;
@@ -1484,11 +394,10 @@
 			};
 			name = Debug;
 		};
-		8BDFCA924AC4970822FACE5384CBE78B /* Debug */ = {
+		5783A851E05A6BBE5CAAC11393A23473 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C6CC501076C3ACBDE1DD6135330FF05E /* YYYMessageSend.xcconfig */;
+			baseConfigurationReference = BB6A2A129CDCD69D76456C8FA1A3D660 /* YYYNavigationController.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1497,44 +406,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYYMessageSend/YYYMessageSend-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYYMessageSend/YYYMessageSend-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YYYNavigationController/YYYNavigationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYYNavigationController/YYYNavigationController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYYMessageSend/YYYMessageSend.modulemap";
-				PRODUCT_MODULE_NAME = YYYMessageSend;
-				PRODUCT_NAME = YYYMessageSend;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB24B671BEFE0F3E3EC9A32318298480 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F55444D0764D01E05430B66B5B539DF0 /* BZWBase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BZWBase/BZWBase-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/BZWBase/BZWBase.modulemap";
-				PRODUCT_MODULE_NAME = BZWBase;
-				PRODUCT_NAME = BZWBase;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YYYNavigationController/YYYNavigationController.modulemap";
+				PRODUCT_MODULE_NAME = YYYNavigationController;
+				PRODUCT_NAME = YYYNavigationController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1545,23 +428,7 @@
 			};
 			name = Release;
 		};
-		BB3AFA341317DB2E3EE0F0691587B596 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F55444D0764D01E05430B66B5B539DF0 /* BZWBase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BZWBase";
-				INFOPLIST_FILE = "Target Support Files/BZWBase/ResourceBundle-BZWConstants-BZWBase-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = BZWConstants;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1611,18 +478,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1675,7 +543,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1683,16 +551,16 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		DC0345859EB83679D2F9BA8DFE908A67 /* Release */ = {
+		E9B680D21F9CD5AB58B5317DC6067754 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EEAFE730B97CA3D2AE0F61B037D71F3 /* BZWWebViewController.xcconfig */;
+			baseConfigurationReference = 7DE980BBB5F64ED81A1BBD7E61AA7566 /* Pods-YYYNavigationController.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1701,109 +569,60 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BZWWebViewController/BZWWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/BZWWebViewController/BZWWebViewController.modulemap";
-				PRODUCT_MODULE_NAME = BZWWebViewController;
-				PRODUCT_NAME = BZWWebViewController;
+				MODULEMAP_FILE = "Target Support Files/Pods-YYYNavigationController/Pods-YYYNavigationController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		033616F8D1B6D6E57D171A5E05E9F74A /* Build configuration list for PBXNativeTarget "YYYTool" */ = {
+		0B3EDCA6D98B848DE626A255D6C504AD /* Build configuration list for PBXNativeTarget "Pods-YYYNavigationController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				414BE047290060ECFC78E005739B00A2 /* Debug */,
-				644110F67EBBFB6C2FF8DE54DB3AC2E5 /* Release */,
+				E9B680D21F9CD5AB58B5317DC6067754 /* Debug */,
+				08120A805706E55B60A71C5EB8E98B7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BA93580C742FEB5088FCA7332C1D74A /* Build configuration list for PBXNativeTarget "BZWWebViewController" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04F81D75C20588EEBBB2DFA5B3C36A44 /* Debug */,
-				DC0345859EB83679D2F9BA8DFE908A67 /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		FF856A7D88D4B91A51C2187AEE60818F /* Build configuration list for PBXNativeTarget "YYYNavigationController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
-				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		587276A5059A98E14900F9E39E245CDB /* Build configuration list for PBXNativeTarget "YYYNavigationController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				881F7FF2A925273B768986A7F6B4F982 /* Debug */,
-				2E9E68696E4AB5A22023333C8D10D8F0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7C3BEEB86DC66433E5A68A8B3522711A /* Build configuration list for PBXNativeTarget "YYYMessageSend" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8BDFCA924AC4970822FACE5384CBE78B /* Debug */,
-				69A9B98F88BF76DB0BEA283E1EFCDBFE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B7B44DC19EC2232464870D894E05F756 /* Build configuration list for PBXNativeTarget "BZWBase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7BAA114F23C710C34961D5366F857D30 /* Debug */,
-				AB24B671BEFE0F3E3EC9A32318298480 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB285A91922B5021CB8411BE9628E88F /* Build configuration list for PBXNativeTarget "BZWBase-BZWConstants" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB3AFA341317DB2E3EE0F0691587B596 /* Debug */,
-				56BDA77DFDEC6A1786CF567FE00043D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C18A69700A1E56FF1ADA5DED2A9DF60E /* Build configuration list for PBXNativeTarget "BZWMediator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0F4B1A0C8FBD1CE5322B831BEBC43DC9 /* Debug */,
-				6D32CCD468D9258273FEB1188D280D6C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F202CF48E63E4173C6E9D6478A4ED2B1 /* Build configuration list for PBXNativeTarget "Pods-YYYNavigationController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3976E9BF68B08A9F2ECA7493A4BADBC1 /* Debug */,
-				8178115DE7D0AA0478ABCA36EF146EA3 /* Release */,
+				13097FFC03FEDF86C42313BAC15D6D3B /* Debug */,
+				5783A851E05A6BBE5CAAC11393A23473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

@@ -1,6 +1,0 @@
-framework module BZWWebViewController {
-  umbrella header "BZWWebViewController-umbrella.h"
-
-  export *
-  module * { export * }
-}

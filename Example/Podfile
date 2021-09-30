@@ -3,5 +3,4 @@ source 'https://github.com/CocoaPods/Specs'
 
 target 'YYYNavigationController' do
   pod 'YYYNavigationController', :path => '../'
-  pod 'BZWWebViewController'
 end

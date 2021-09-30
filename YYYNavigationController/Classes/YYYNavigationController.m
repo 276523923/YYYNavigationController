@@ -10,6 +10,9 @@
 #import "YYYNavigationManager.h"
 #import <objc/runtime.h>
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+
 @interface YYY_Transition_NavigationBar : UINavigationBar
 @end
 
@@ -308,6 +311,7 @@ shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRec
     }];
 }
 
+
 - (UINavigationItem *)copyNavigationItem:(UINavigationItem *)item {
     NSMutableData *data = [NSMutableData data];
     NSKeyedArchiver *archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
@@ -319,6 +323,27 @@ shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRec
         copyObject.titleView = item.titleView;
         item.titleView = nil;
     }
+    
+    if (item.rightBarButtonItems.count > 0) {
+        for (int i = 0; i < item.rightBarButtonItems.count; i++) {
+            UIBarButtonItem *barItem = item.rightBarButtonItems[i];
+            id obj = [barItem titleTextAttributesForState:UIControlStateNormal];
+            if (obj) {
+                [copyObject.rightBarButtonItems[i] setTitleTextAttributes:obj forState:UIControlStateNormal];
+            }
+        }
+    }
+    
+    if (item.leftBarButtonItems.count > 0) {
+        for (int i = 0; i < item.leftBarButtonItems.count; i++) {
+            UIBarButtonItem *barItem = item.leftBarButtonItems[i];
+            id obj = [barItem titleTextAttributesForState:UIControlStateNormal];
+            if (obj) {
+                [copyObject.leftBarButtonItems[i] setTitleTextAttributes:obj forState:UIControlStateNormal];
+            }
+        }
+    }
+    
     return copyObject;
 }
 
@@ -396,3 +421,5 @@ shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRec
 }
 
 @end
+
+#pragma clang diagnostic pop

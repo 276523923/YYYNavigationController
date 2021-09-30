@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1300"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50CDC26FE1E2C4C764BEB46E74BB0AD4"
+               BlueprintIdentifier = "5B3CF5E367F1BE9A83C6A170FFEF8F2B"
                BuildableName = "Pods_YYYNavigationController.framework"
                BlueprintName = "Pods-YYYNavigationController"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -40,15 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50CDC26FE1E2C4C764BEB46E74BB0AD4"
-            BuildableName = "Pods_YYYNavigationController.framework"
-            BlueprintName = "Pods-YYYNavigationController"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

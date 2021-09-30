@@ -1,6 +1,0 @@
-framework module YYYMessageSend {
-  umbrella header "YYYMessageSend-umbrella.h"
-
-  export *
-  module * { export * }
-}
